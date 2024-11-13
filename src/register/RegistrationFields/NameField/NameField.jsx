@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 import validateName from './validator';
 import { FormGroup } from '../../../common-components';
 import { clearRegistrationBackendError, fetchRealtimeValidations } from '../../data/actions';
+import { BorderColor } from '@openedx/paragon/icons';
 
 /**
  * Name field wrapper. It accepts following handlers
@@ -49,6 +50,7 @@ const NameField = (props) => {
       {...props}
       handleBlur={handleOnBlur}
       handleFocus={handleOnFocus}
+
     />
   );
 };

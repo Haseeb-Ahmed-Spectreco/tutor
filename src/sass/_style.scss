@@ -92,8 +92,20 @@ $elevation-level-2-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.15);
   font-size: 0.875rem;
   line-height: 1.5;
   height: 2.75rem;
+  border: 1px solid #bc18234a; // Default border color with transparency
+  
+  &:hover {
+    border-color: #bc1823; // Solid color on hover
+  }
 
+  &:focus {
+    border: 2px solid #bc1823; // 2px solid color on focus
+    outline: none; // Remove default outline, if any
+    box-shadow: none;
+  }
 }
+
+
 
 .btn-social {
   display: flex;
