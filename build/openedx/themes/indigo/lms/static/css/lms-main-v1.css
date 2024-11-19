@@ -25431,7 +25431,7 @@ body.open-modal {
         line-height: 1.5em; }
       /* line 727, /openedx/edx-platform/lms/static/sass/features/_learner-profile.scss */
       .view-profile .badge-set-display .badge-display .badge-details .find-button-container {
-        border: 1px solid #3391c3;
+        border: 1px solid #bc1823;
         padding: 10px 20px 10px 20px;
         display: inline-block;
         border-radius: 5px;

@@ -26,28 +26,28 @@
 
 /* line 17, common/static/sass/_builtin-block-variables.scss */
 :root {
-  --action-primary-active-bg: #0075b4;
+  --action-primary-active-bg: #bc1823;
   --all-text-inputs: input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"];
   --base-font-size: 18px;
   --base-line-height: 1.5em;
   --baseline: 20px;
   --black: #000;
   --black-t2: rgba(0, 0, 0, 0.5);
-  --blue: #0075b4;
-  --blue-d1: #005e90;
-  --blue-d2: #00466c;
+  --blue: #bc1823;
+  --blue-d1: #bc18239a;
+  --blue-d2: #bc18237a;
   --blue-d4: #001724;
   --body-color: #313131;
   --border-color: #e7e7e7;
   --bp-screen-lg: 1024px;
-  --btn-brand-focus-background: #065683;
+  --btn-brand-focus-background: #bc18237a;
   --correct: #008100;
   --danger: #b20610;
   --darkGrey: #8891a1;
   --error-color: #cb0712;
   --font-bold: 700;
   --font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --general-color-accent: #0075b4;
+  --general-color-accent: #bc1823;
   --gray: #767676;
   --gray-300: #d9d9d9;
   --gray-d1: #5e5e5e;
@@ -58,7 +58,7 @@
   --incorrect: #b20610;
   --lightGrey: #edf1f5;
   --lighter-base-font-color: #646464;
-  --link-color: #1b6d99;
+  --link-color: #bc18234a;
   --medium-font-size: 0.9em;
   --partially-correct: #008100;
   --primary: #bc1823;
@@ -67,7 +67,7 @@
   --sidebar-color: #f6f6f6;
   --small-font-size: 80%;
   --static-path: "..";
-  --submitted: #0075b4;
+  --submitted: #bc1823;
   --success: #008100;
   --tmg-f2: 0.25s;
   --tmg-s2: 2s;
@@ -493,10 +493,10 @@ abbr[title] {
   transition: all 0.15s;
   text-align: center;
   border-radius: 5px;
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   padding: 1px 10px 2px 10px;
   background-color: #fff;
-  color: #0075b4; }
+  color: #bc1823; }
   /* line 291, /openedx/edx-platform/cms/static/sass/_mixins.scss */
   .wrapper-comp-settings .file-uploader .upload-setting:hover, .wrapper-comp-settings .list-input.settings-list .metadata-list-enum .create-setting:hover, .wrapper-comp-settings .list-input.settings-list .metadata-dict .create-setting:hover, .paste-component .paste-component-button:hover, .outline-content .add-item .button-new:hover, .bit .external-help-button:hover, .view-outline .new-subsection-item:hover,
   .view-outline .new-unit-item:hover, .view-outline .outline-complex .outline-subsection .subsection-header-actions .actions-list .proctoring-configuration-button:hover, .view-outline .outline-complex .add-item .button-new:hover, .view-settings .group-settings #field-course-image .wrapper-input .action-upload-image:hover,
@@ -547,7 +547,7 @@ abbr[title] {
 .incontext-editor.is-editable .incontext-editor-open-action:hover,
 .incontext-editor.is-editable .access-button:hover, .view-group-configurations .content-primary .wrapper-collection .collection-details .actions .action .edit:hover, .view-certificates .wrapper-collection .collection-details .actions .action .edit:hover, .view-certificates .wrapper-collection .collection-details .actions .action .edit-signatory:hover, .incontext-editor.is-editable .incontext-editor-open-action:focus,
 .incontext-editor.is-editable .access-button:focus, .view-group-configurations .content-primary .wrapper-collection .collection-details .actions .action .edit:focus, .view-certificates .wrapper-collection .collection-details .actions .action .edit:focus, .view-certificates .wrapper-collection .collection-details .actions .action .edit-signatory:focus {
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #fff; }
 
 /* line 342, /openedx/edx-platform/cms/static/sass/_mixins.scss */
@@ -1246,7 +1246,7 @@ button {
 a {
   transition: color 0.25s ease-in-out 0s;
   text-decoration: none;
-  color: #0075b4; }
+  color: #bc1823; }
   /* line 53, /openedx/edx-platform/cms/static/sass/_base.scss */
   a:hover {
     color: #065683; }
@@ -1764,7 +1764,7 @@ dl {
     /* line 709, /openedx/edx-platform/cms/static/sass/_base.scss */
     .content-modal .action-modal-close:hover, .content-modal .action-modal-close:active {
       top: 0;
-      background: #0075b4; }
+      background: #bc1823; }
   /* line 716, /openedx/edx-platform/cms/static/sass/_base.scss */
   .content-modal img {
     box-sizing: border-box;
@@ -2462,8 +2462,8 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
 .wrapper-mast .mast.has-actions .nav-actions .button, .wrapper-sock .sock .support .list-actions .action-primary,
 .wrapper-sock .sock .feedback .list-actions .action-primary, .notification.has-actions .action-primary, .notice-incontext.has-actions .list-actions .action-primary, .notice-instruction.has-actions .list-actions .action-primary, .view-dashboard .status-creationrights .list-actions .action-primary,
 .view-dashboard .status-creationrights .form-actions .action-primary, .view-export .export-controls .action-export, .view-export .wrapper-status .list-progress .item-progresspoint.has-actions .list-actions .action-primary, .view-import .wrapper-status .list-progress .item-progresspoint.has-actions .list-actions .action-primary, .view-outline .course-status .status-highlights-enabled-value.button, .view-settings .group-settings.basic .note-promotion-courseURL .list-actions .action-primary, .view-container .content-supplementary .bit-publishing .wrapper-pub-actions .action-publish, .view-container .content-supplementary .bit-publishing .wrapper-pub-actions .action-copy:hover, .view-export-git .export-git-controls .action-export-git, .view-group-configurations .content-primary .wrapper-collection .collection-edit .actions .action-primary, .view-video-uploads .course-video-settings-container .button, .view-certificates .wrapper-collection .collection-edit .actions .action-primary, .xmodule_VideoBlock .wrapper-comp-settings.basic_metadata_edit .transcripts-status .action {
-  background: #0075b4;
-  border-color: #0075b4;
+  background: #bc1823;
+  border-color: #bc1823;
   color: #fff; }
   /* line 76, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
   .wrapper-mast .mast.has-actions .nav-actions .button:hover, .wrapper-sock .sock .support .list-actions .action-primary:hover,
@@ -2551,21 +2551,21 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
 /* line 123, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
 .view-container .content-supplementary .unit-tags .wrapper-tags .action-primary {
   background: #fff;
-  border-color: #0075b4;
-  color: #0075b4; }
+  border-color: #bc1823;
+  color: #bc1823; }
   /* line 130, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
   .view-container .content-supplementary .unit-tags .wrapper-tags .action-primary:hover, .view-container .content-supplementary .unit-tags .wrapper-tags .action-primary:active {
-    background: #0075b4;
+    background: #bc1823;
     border-color: #065683;
     color: #fff; }
   /* line 137, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
   .view-container .content-supplementary .unit-tags .wrapper-tags .current.action-primary, .view-container .content-supplementary .unit-tags .wrapper-tags .active.action-primary {
-    background: #0075b4;
+    background: #bc1823;
     border-color: #065683;
     color: #fff; }
     /* line 143, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
     .view-container .content-supplementary .unit-tags .wrapper-tags .current.action-primary:hover, .view-container .content-supplementary .unit-tags .wrapper-tags .current.action-primary:active, .view-container .content-supplementary .unit-tags .wrapper-tags .active.action-primary:hover, .view-container .content-supplementary .unit-tags .wrapper-tags .active.action-primary:active {
-      background: #0075b4; }
+      background: #bc1823; }
 
 /* line 153, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
 [class*="view-"] .modal-lg.modal-editor .modal-header .editor-modes .action-item .editor-button,
@@ -2674,7 +2674,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
       color: #5e5e5e; }
       /* line 365, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
       .wrapper-xblock .wrapper-xblock .header-actions .actions-list .action-item .action-button:hover, .wrapper-xblock .wrapper-xblock-message .xblock-message-actions .actions-list .action-item .action-button:hover, .wrapper-message .message-actions .actions-list .action-item .action-button:hover, [class*="view-"] .modal-window .modal-section-content .list-actions .action-item .action-button:hover, .view-uploads .actions-list .action-item .action-button:hover, .view-outline .course-status .status-actions .action-item .action-button:hover, .view-outline .outline-complex .outline-section .section-header-actions .actions-list .action-item .action-button:hover, .view-outline .outline-complex .outline-subsection .subsection-header-actions .actions-list .action-item .action-button:hover, .view-outline .outline-complex .outline-unit .unit-header-actions .actions-list .action-item .action-button:hover, .view-video-uploads .assets-library .actions-list .action-item .action-button:hover {
-        background-color: #0075b4;
+        background-color: #bc1823;
         color: #f8f8f8; }
       /* line 370, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
       .wrapper-xblock .wrapper-xblock .header-actions .actions-list .action-item .action-button .action-button-text, .wrapper-xblock .wrapper-xblock-message .xblock-message-actions .actions-list .action-item .action-button .action-button-text, .wrapper-message .message-actions .actions-list .action-item .action-button .action-button-text, [class*="view-"] .modal-window .modal-section-content .list-actions .action-item .action-button .action-button-text, .view-uploads .actions-list .action-item .action-button .action-button-text, .view-outline .course-status .status-actions .action-item .action-button .action-button-text, .view-outline .outline-complex .outline-section .section-header-actions .actions-list .action-item .action-button .action-button-text, .view-outline .outline-complex .outline-subsection .subsection-header-actions .actions-list .action-item .action-button .action-button-text, .view-outline .outline-complex .outline-unit .unit-header-actions .actions-list .action-item .action-button .action-button-text, .view-video-uploads .assets-library .actions-list .action-item .action-button .action-button-text {
@@ -2712,7 +2712,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
   vertical-align: top; }
   /* line 440, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
   .wrapper-xblock .wrapper-xblock.is-collapsible .expand-collapse:hover, .wrapper-xblock .wrapper-xblock.xblock-type-container .expand-collapse:hover, .view-outline .expand-collapse:hover {
-    color: #0075b4; }
+    color: #bc1823; }
   /* line 444, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
   .wrapper-xblock .wrapper-xblock.is-collapsible .expand-collapse .ui-toggle-expansion, .wrapper-xblock .wrapper-xblock.xblock-type-container .expand-collapse .ui-toggle-expansion, .view-outline .expand-collapse .ui-toggle-expansion {
     transition: all 0.25s ease-in-out 0s;
@@ -2738,7 +2738,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
       transition: all 0.25s ease-in-out 0s; }
     /* line 480, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
     .view-outline .outline-complex .outline-section.is-collapsible .ui-toggle-expansion:hover, .view-outline .outline-complex .outline-subsection.is-collapsible .ui-toggle-expansion:hover, .view-outline .outline-complex .outline-section.is-collapsible .ui-toggle-expansion:active, .view-outline .outline-complex .outline-subsection.is-collapsible .ui-toggle-expansion:active {
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 491, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
   .view-outline .outline-complex .is-collapsed.outline-section.is-collapsible .ui-toggle-expansion .icon, .view-outline .outline-complex .is-collapsed.outline-subsection.is-collapsible .ui-toggle-expansion .icon {
     transform: rotate(-90deg);
@@ -2758,7 +2758,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
     height: auto;
     width: 100%;
     position: absolute;
-    border-top: 1px solid #3391c3;
+    border-top: 1px solid #bc1823;
     opacity: 0; }
     /* line 526, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
     .is-draggable .draggable-drop-indicator .fa-caret-right {
@@ -2782,7 +2782,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
   border: 1px solid #2f2f2f; }
   /* line 556, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
   .is-dragging.valid-drop {
-    border-color: #0075b4;
+    border-color: #bc1823;
     box-shadow: 0 1px 2px 0 rgba(0, 117, 180, 0.5); }
 
 /* line 563, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
@@ -2806,7 +2806,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
 /* line 587, /openedx/edx-platform/cms/static/sass/elements/_controls.scss */
 .was-dropped {
   animation: was-dropped 0.75s ease-in-out 1;
-  border-color: #0075b4;
+  border-color: #bc1823;
   box-shadow: 0 1px 2px 0 rgba(0, 117, 180, 0.5); }
 
 /* line 4, /openedx/edx-platform/cms/static/sass/elements/_pagination.scss */
@@ -2845,7 +2845,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
       margin-left: 10px; }
     /* line 41, /openedx/edx-platform/cms/static/sass/elements/_pagination.scss */
     .wrapper-xblock .container-paging-header .pagination .nav-link:hover, .wrapper-xblock .container-paging-footer .pagination .nav-link:hover, .wrapper-assets .assets-library .pagination .nav-link:hover {
-      background-color: #0075b4;
+      background-color: #bc1823;
       border-radius: 3px;
       color: #fff; }
     /* line 47, /openedx/edx-platform/cms/static/sass/elements/_pagination.scss */
@@ -2998,7 +2998,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
           color: #919191; }
           /* line 139, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
           .wrapper-xblock .xblock-header-secondary .actions-list .action-item .action-button:hover {
-            background-color: #0075b4;
+            background-color: #bc1823;
             color: #f8f8f8; }
           /* line 144, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
           .wrapper-xblock .xblock-header-secondary .actions-list .action-item .action-button .action-button-text {
@@ -3192,7 +3192,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
     box-shadow: none; }
     /* line 445, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
     .wrapper-xblock.level-element:hover {
-      border-color: #0075b4; }
+      border-color: #bc1823; }
     /* line 450, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
     .wrapper-xblock.level-element.is-collapsed .xblock-render {
       display: none; }
@@ -3283,10 +3283,10 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
     padding: 10px;
     width: 49%;
     text-align: center;
-    color: #0075b4; }
+    color: #bc1823; }
     /* line 607, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
     .wrapper-comp-settings .file-uploader .download-setting:hover {
-      background-color: #0075b4; }
+      background-color: #bc1823; }
   /* line 612, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
   .wrapper-comp-settings .file-uploader .wrapper-uploader-actions {
     width: 45%;
@@ -3325,7 +3325,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
         background-color: #fff; }
         /* line 663, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
         .wrapper-comp-settings .list-input.settings-list .field.comp-setting-entry.is-set .setting-input {
-          color: #3391c3; }
+          color: #bc1823; }
     /* line 669, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
     .wrapper-comp-settings .list-input.settings-list .wrapper-comp-setting,
     .wrapper-comp-settings .list-input.settings-list .wrapper-comp-setting-text {
@@ -3346,7 +3346,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
       margin-right: 10px; }
       /* line 692, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
       .wrapper-comp-settings .list-input.settings-list .setting-label.is-focused {
-        color: #0075b4; }
+        color: #bc1823; }
     /* line 697, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
     .wrapper-comp-settings .list-input.settings-list input,
     .wrapper-comp-settings .list-input.settings-list select,
@@ -3411,8 +3411,8 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
       .wrapper-comp-settings .list-input.settings-list .action.setting-clear:hover {
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
         transition: opacity 0.25s ease-in-out 0s;
-        background-color: #0075b4;
-        border: 1px solid #0075b4;
+        background-color: #bc1823;
+        border: 1px solid #bc1823;
         color: #fff; }
       /* line 771, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
       .wrapper-comp-settings .list-input.settings-list .action.setting-clear.inactive {
@@ -3470,7 +3470,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
       color: #99c8e1; }
       /* line 855, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
       .wrapper-comp-settings .list-input.settings-list .metadata-list-enum .remove-setting:hover {
-        color: #0075b4; }
+        color: #bc1823; }
     /* line 863, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
     .wrapper-comp-settings .list-input.settings-list .metadata-dict * {
       box-sizing: border-box; }
@@ -3518,7 +3518,7 @@ textarea.text, .form-create .list-input .field .tip, label, .wrapper-footer foot
       color: #99c8e1; }
       /* line 929, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
       .wrapper-comp-settings .list-input.settings-list .metadata-dict .remove-setting:hover {
-        color: #0075b4; }
+        color: #bc1823; }
 
 /* line 937, /openedx/edx-platform/cms/static/sass/elements/_xblocks.scss */
 .wrapper-comp-plugins {
@@ -3603,9 +3603,9 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
       background-color: rgba(255, 255, 255, 0.3);
       background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
       background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-      border: 1px solid #0075b4;
+      border: 1px solid #bc1823;
       border-radius: 3px;
-      background-color: #0075b4;
+      background-color: #bc1823;
       color: #fff; }
       /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
       .wrapper-license .license-types .action.license-button.is-selected.disabled, .wrapper-license .license-types .action.license-button.is-selected.is-disabled {
@@ -3711,7 +3711,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
 
 /* line 46, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
 .view-container .content-supplementary .bit-publishing.is-live {
-  border-top: 5px solid #0075b4; }
+  border-top: 5px solid #bc1823; }
   /* line 51, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
   .view-container .content-supplementary .bit-publishing.is-live .bar-mod-title {
     background-color: rgba(0, 117, 180, 0.125); }
@@ -3861,7 +3861,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
         padding-right: 10px; }
       /* line 216, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
       .add-xblock-component .new-component-templates .support-documentation .support-documentation-link {
-        color: #0075b4;
+        color: #bc1823;
         text-decoration: none;
         padding-right: 10px; }
         /* line 222, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
@@ -4113,7 +4113,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
     color: #474747; }
     /* line 593, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
     .outline-simple .outline-section .item-title a:hover, .outline-simple .outline-subsection .item-title a:hover, .outline-simple .outline-unit .item-title a:hover {
-      color: #0075b4; }
+      color: #bc1823; }
 
 /* line 604, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
 .outline-complex .outline-section {
@@ -4130,7 +4130,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
       border-left-color: #008100; }
     /* line 625, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
     .outline-complex .outline-section.is-collapsed.is-live {
-      border-left-color: #0075b4; }
+      border-left-color: #bc1823; }
     /* line 630, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
     .outline-complex .outline-section.is-collapsed.is-staff-only {
       border-left-color: #000; }
@@ -4208,7 +4208,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
     border-left-color: #008100; }
   /* line 748, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
   .outline-complex .outline-subsection.is-live {
-    border-left-color: #0075b4; }
+    border-left-color: #bc1823; }
   /* line 753, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
   .outline-complex .outline-subsection.is-staff-only {
     border-left-color: #000; }
@@ -4450,7 +4450,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
       display: block; }
       /* line 153, /openedx/edx-platform/cms/static/sass/elements/_navigation.scss */
       .nav-dd .nav-sub .nav-item a:hover, .nav-dd .nav-sub .nav-item a:active {
-        color: #0075b4; }
+        color: #bc1823; }
 
 /* line 163, /openedx/edx-platform/cms/static/sass/elements/_navigation.scss */
 .nav-dd.ui-left .wrapper-nav-sub {
@@ -4489,13 +4489,13 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
   margin-bottom: 5px; }
   /* line 215, /openedx/edx-platform/cms/static/sass/elements/_navigation.scss */
   .jump-nav .nav-item .title:hover, .jump-nav .nav-item .title:active {
-    color: #0075b4; }
+    color: #bc1823; }
   /* line 221, /openedx/edx-platform/cms/static/sass/elements/_navigation.scss */
   .jump-nav .nav-item .hyperlink {
     color: #474747; }
     /* line 224, /openedx/edx-platform/cms/static/sass/elements/_navigation.scss */
     .jump-nav .nav-item .hyperlink:hover, .jump-nav .nav-item .hyperlink:active {
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 230, /openedx/edx-platform/cms/static/sass/elements/_navigation.scss */
   .jump-nav .nav-item .spacer {
     margin-right: 20px;
@@ -4748,7 +4748,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
 .sequence-nav button:active,
 .sequence-nav button.active {
   padding-top: 2px;
-  background-color: #0075b4; }
+  background-color: #bc1823; }
   /* line 541, /openedx/edx-platform/cms/static/sass/elements/_navigation.scss */
   .sequence-nav-button.focused .icon, .sequence-nav-button:hover .icon, .sequence-nav-button:active .icon, .sequence-nav-button.active .icon,
   .sequence-nav button.focused .icon,
@@ -4865,7 +4865,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
           color: #767676; }
     /* line 125, /openedx/edx-platform/cms/static/sass/elements/_layout.scss */
     .wrapper-mast .mast.has-navigation .navigation-link:hover {
-      color: #0075b4; }
+      color: #bc1823; }
     /* line 129, /openedx/edx-platform/cms/static/sass/elements/_layout.scss */
     .wrapper-mast .mast.has-navigation .navigation-item::before {
       content: " / ";
@@ -5024,7 +5024,7 @@ form .field-checkbox .input-checkbox ~ label, form .field-radio .input-radio ~ l
 
 /* line 25, /openedx/edx-platform/cms/static/sass/elements/_forms.scss */
 form .field-checkbox .input-checkbox:checked ~ label, form .field-radio .input-radio:checked ~ label {
-  color: #0075b4; }
+  color: #bc1823; }
 
 /* line 32, /openedx/edx-platform/cms/static/sass/elements/_forms.scss */
 input[type="text"],
@@ -5146,7 +5146,7 @@ form .note {
     margin: 0 0 5px 0; }
     /* line 209, /openedx/edx-platform/cms/static/sass/elements/_forms.scss */
     .form-create .list-input .field label.is-focused {
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 215, /openedx/edx-platform/cms/static/sass/elements/_forms.scss */
   .form-create .list-input .field input,
   .form-create .list-input .field textarea {
@@ -5268,9 +5268,9 @@ form .note {
     background-color: rgba(255, 255, 255, 0.3);
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
     background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    border: 1px solid #0075b4;
+    border: 1px solid #bc1823;
     border-radius: 3px;
-    background-color: #0075b4;
+    background-color: #bc1823;
     color: #fff; }
     /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
     .form-create .actions .action-primary.disabled, .form-create .actions .action-primary.is-disabled {
@@ -5655,11 +5655,9 @@ code {
     display: inline-block;
     padding: 4px 20px 5px;
     background-color: rgba(255, 255, 255, 0.3);
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    border: 1px solid #0075b4;
+    border: 1px solid #bc1823;
     border-radius: 3px;
-    background-color: #0075b4;
+    background-color: #bc1823;
     color: #fff;
     padding: 5px 10px;
     text-transform: uppercase; }
@@ -5691,7 +5689,7 @@ code {
     .view-util .wrapper-header .nav-pitch .action-signup:hover,
     .view-util .wrapper-header .nav-pitch .action-signup:focus,
     .view-util .wrapper-header .nav-pitch .action-signup:active {
-      background-color: #065683;
+      background-color: #bc18239a;
       color: #fff; }
     /* line 207, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
     .not-signedin .wrapper-header .nav-pitch .action-signup.disabled, .not-signedin .wrapper-header .nav-pitch .action-signup.is-disabled,
@@ -5708,13 +5706,10 @@ code {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
     display: inline-block;
     padding: 4px 20px 5px;
-    background-color: rgba(255, 255, 255, 0.6);
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0));
+    background-color: #fff;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
-    border: 1px solid #ced2db;
+    border: 1px solid #bc1823;
     border-radius: 3px;
-    background-color: #dfe5eb;
     color: #5c677a;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     padding: 5px 10px;
@@ -5735,7 +5730,8 @@ code {
       .view-util .wrapper-header .nav-pitch .action-signin.disabled:focus,
       .view-util .wrapper-header .nav-pitch .action-signin.is-disabled:hover,
       .view-util .wrapper-header .nav-pitch .action-signin.is-disabled:focus {
-        box-shadow: 0 0 0 0 !important; }
+        box-shadow: 0 0 0 0 !important;
+       }
     /* line 159, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
     .not-signedin .wrapper-header .nav-pitch .action-signin:hover, .not-signedin .wrapper-header .nav-pitch .action-signin:focus, .not-signedin .wrapper-header .nav-pitch .action-signin:active,
     .view-util .wrapper-header .nav-pitch .action-signin:hover,
@@ -5746,8 +5742,8 @@ code {
     .not-signedin .wrapper-header .nav-pitch .action-signin:hover, .not-signedin .wrapper-header .nav-pitch .action-signin:focus,
     .view-util .wrapper-header .nav-pitch .action-signin:hover,
     .view-util .wrapper-header .nav-pitch .action-signin:focus {
-      background-color: #deecf7;
-      color: #5c677a; }
+      background-color: #bc18239a;
+      color: #fff; }
 
 /* line 355, /openedx/edx-platform/cms/static/sass/elements/_header.scss */
 .nav-item.is-current,
@@ -5787,7 +5783,7 @@ body.course.view-team .nav-library-settings .title,
 body.course.view-team .nav-library-settings-team,
 body.course.view-checklists .nav-course-tools .title,
 body.course.view-checklists .nav-course-tools-checklists {
-  color: #0075b4; }
+  color: #bc1823; }
   /* line 394, /openedx/edx-platform/cms/static/sass/elements/_header.scss */
   .nav-item.is-current a,
   body.howitworks .nav-not-signedin-hiw a,
@@ -5826,7 +5822,7 @@ body.course.view-checklists .nav-course-tools-checklists {
   body.course.view-team .nav-library-settings-team a,
   body.course.view-checklists .nav-course-tools .title a,
   body.course.view-checklists .nav-course-tools-checklists a {
-    color: #0075b4;
+    color: #bc1823;
     pointer-events: none; }
 
 /* line 4, /openedx/edx-platform/cms/static/sass/elements/_footer.scss */
@@ -5859,7 +5855,7 @@ body.course.view-checklists .nav-course-tools-checklists {
       margin-right: 14.28571%; }
     /* line 32, /openedx/edx-platform/cms/static/sass/elements/_footer.scss */
     .wrapper-footer footer.primary a {
-      color: #0075b4; }
+      color: #bc1823; }
       /* line 35, /openedx/edx-platform/cms/static/sass/elements/_footer.scss */
       .wrapper-footer footer.primary a:hover, .wrapper-footer footer.primary a:active {
         color: #065683; }
@@ -5956,7 +5952,7 @@ body.course.view-checklists .nav-course-tools-checklists {
         margin-right: 5px; }
       /* line 47, /openedx/edx-platform/cms/static/sass/elements/_sock.scss */
       .wrapper-sock .list-cta .cta-show-sock:hover {
-        background: #0075b4;
+        background: #bc1823;
         color: #fff; }
   /* line 55, /openedx/edx-platform/cms/static/sass/elements/_sock.scss */
   .wrapper-sock .sock {
@@ -6151,9 +6147,9 @@ body.course.view-checklists .nav-course-tools-checklists {
   background-color: rgba(255, 255, 255, 0.3);
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   border-radius: 3px;
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #fff;
   border-color: #00466c; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
@@ -6213,12 +6209,12 @@ body.course.view-checklists .nav-course-tools-checklists {
 .alert.confirm button,
 .notification.confirm button,
 .prompt.confirm button {
-  color: #0075b4; }
+  color: #bc1823; }
   /* line 156, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
   .alert.confirm button:hover,
   .notification.confirm button:hover,
   .prompt.confirm button:hover {
-    color: #0075b4; }
+    color: #bc1823; }
 
 /* line 164, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
 .alert.warning .nav-actions .action-primary,
@@ -6391,9 +6387,9 @@ body.course.view-checklists .nav-course-tools-checklists {
   background-color: rgba(255, 255, 255, 0.3);
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   border-radius: 3px;
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #fff;
   border-color: #00466c; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
@@ -6453,12 +6449,12 @@ body.course.view-checklists .nav-course-tools-checklists {
 .alert.announcement button,
 .notification.announcement button,
 .prompt.announcement button {
-  color: #0075b4; }
+  color: #bc1823; }
   /* line 220, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
   .alert.announcement button:hover,
   .notification.announcement button:hover,
   .prompt.announcement button:hover {
-    color: #0075b4; }
+    color: #bc1823; }
 
 /* line 228, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
 .alert.confirmation .nav-actions .action-primary,
@@ -6647,7 +6643,7 @@ body.course.view-checklists .nav-course-tools-checklists {
     text-align: left; }
     /* line 300, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
     .wrapper-prompt .prompt .copy {
-      border-top: 4px solid #0075b4;
+      border-top: 4px solid #bc1823;
       padding: 20px; }
     /* line 305, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
     .wrapper-prompt .prompt .nav-actions {
@@ -6690,7 +6686,7 @@ body.course.view-checklists .nav-course-tools-checklists {
 
 /* line 375, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
 .wrapper-notification {
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2), inset 0 3px 1px #0075b4;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2), inset 0 3px 1px #bc1823;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -6720,10 +6716,10 @@ body.course.view-checklists .nav-course-tools-checklists {
       color: #008100; }
   /* line 410, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
   .wrapper-notification.wrapper-notification-info {
-    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2), inset 0 3px 1px #0075b4; }
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2), inset 0 3px 1px #bc1823; }
     /* line 413, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
     .wrapper-notification.wrapper-notification-info .feedback-symbol {
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 418, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
   .wrapper-notification.wrapper-notification-mini {
     box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2), inset 0 3px 1px #c2387d; }
@@ -6888,7 +6884,7 @@ body.course.view-checklists .nav-course-tools-checklists {
 /* line 640, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
 .wrapper-alert {
   box-sizing: border-box;
-  box-shadow: 0 1px 1px #fff, inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -4px 1px #0075b4;
+  box-shadow: 0 1px 1px #fff, inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -4px 1px #bc1823;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -6919,10 +6915,10 @@ body.course.view-checklists .nav-course-tools-checklists {
       color: #008100; }
   /* line 684, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
   .wrapper-alert.wrapper-alert-announcement {
-    box-shadow: 0 1px 1px #fff, inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -4px 1px #0075b4; }
+    box-shadow: 0 1px 1px #fff, inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -4px 1px #bc1823; }
     /* line 687, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
     .wrapper-alert.wrapper-alert-announcement .feedback-symbol {
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 692, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
   .wrapper-alert.wrapper-alert-step-required {
     box-shadow: 0 1px 1px #fff, inset 0 2px 2px rgba(0, 0, 0, 0.4), inset 0 -4px 1px #c2387d; }
@@ -7220,9 +7216,9 @@ body.error {
     background-color: rgba(255, 255, 255, 0.3);
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
     background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    border: 1px solid #0075b4;
+    border: 1px solid #bc1823;
     border-radius: 3px;
-    background-color: #0075b4;
+    background-color: #bc1823;
     color: #fff;
     padding: 14px 40px 18px; }
     /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
@@ -7460,9 +7456,9 @@ body.error {
     background-color: rgba(255, 255, 255, 0.3);
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
     background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    border: 1px solid #0075b4;
+    border: 1px solid #bc1823;
     border-radius: 3px;
-    background-color: #0075b4;
+    background-color: #bc1823;
     color: #fff;
     margin: 13px 6px 0 13px; }
     /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
@@ -7569,7 +7565,7 @@ body.modal-open {
   /* line 36, /openedx/edx-platform/cms/static/sass/elements/_vendor.scss */
   .ui-datepicker .ui-state-default {
     border-color: #ced2db;
-    color: #0075b4;
+    color: #bc1823;
     transition: none; }
     /* line 42, /openedx/edx-platform/cms/static/sass/elements/_vendor.scss */
     .ui-datepicker .ui-state-default.ui-state-hover {
@@ -7578,8 +7574,8 @@ body.modal-open {
       color: #fff; }
   /* line 49, /openedx/edx-platform/cms/static/sass/elements/_vendor.scss */
   .ui-datepicker .ui-state-highlight {
-    background: #0075b4;
-    border-color: #0075b4;
+    background: #bc1823;
+    border-color: #bc1823;
     color: #fff; }
   /* line 55, /openedx/edx-platform/cms/static/sass/elements/_vendor.scss */
   .ui-datepicker .ui-state-active {
@@ -7694,7 +7690,7 @@ body.modal-open {
     /* line 188, /openedx/edx-platform/cms/static/sass/elements/_vendor.scss */
     .ui-autocomplete li.ui-menu-item a.ui-state-focus {
       border: none;
-      background-color: #0075b4;
+      background-color: #bc1823;
       color: #fff; }
 
 /* line 126, common/static/sass/edx-pattern-library-shims/base/_variables.scss */
@@ -7800,11 +7796,11 @@ body.modal-open {
           /* line 134, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
           [class*="view-"] .modal-window .modal-section .settings-tabs-header li.settings-tab-buttons .settings-tab-button:hover {
             background-color: #fff;
-            color: #0075b4; }
+            color: #bc1823; }
           /* line 139, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
           [class*="view-"] .modal-window .modal-section .settings-tabs-header li.settings-tab-buttons .settings-tab-button.active {
-            border-bottom: 4px solid #0075b4;
-            color: #0075b4; }
+            border-bottom: 4px solid #bc1823;
+            color: #bc1823; }
     /* line 147, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
     [class*="view-"] .modal-window .modal-section .subsection-share-link-tabs-header {
       margin-bottom: 20px;
@@ -7826,11 +7822,11 @@ body.modal-open {
           /* line 168, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
           [class*="view-"] .modal-window .modal-section .subsection-share-link-tabs-header li.subsection-share-link-tab-buttons .subsection-share-link-tab-button:hover {
             background-color: #fff;
-            color: #0075b4; }
+            color: #bc1823; }
           /* line 173, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
           [class*="view-"] .modal-window .modal-section .subsection-share-link-tabs-header li.subsection-share-link-tab-buttons .subsection-share-link-tab-button.active {
-            border-bottom: 4px solid #0075b4;
-            color: #0075b4; }
+            border-bottom: 4px solid #bc1823;
+            color: #bc1823; }
   /* line 182, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
   [class*="view-"] .modal-window .modal-section-title {
     margin: 0 0 10px 0;
@@ -7857,7 +7853,7 @@ body.modal-open {
     /* line 214, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
     [class*="view-"] .modal-window .modal-section-content .enable-hide-from-toc-container .icon-message {
       color: white;
-      background: #0075B4;
+      background: #bc1823;
       padding: 8px;
       border-radius: 50%;
       transform: rotate(90deg);
@@ -7922,9 +7918,9 @@ body.modal-open {
       background-color: rgba(255, 255, 255, 0.3);
       background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
       background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-      border: 1px solid #0075b4;
+      border: 1px solid #bc1823;
       border-radius: 3px;
-      background-color: #0075b4;
+      background-color: #bc1823;
       color: #fff;
       border-color: #005e90;
       color: #fff; }
@@ -8303,7 +8299,7 @@ body.modal-open {
     [class*="view-"] .wrapper-modal-window-bulkpublish-subsection .list-fields .field label.is-focused,
     [class*="view-"] .wrapper-modal-window-bulkpublish-unit .list-fields .field label.is-focused,
     [class*="view-"] .course-outline-modal .list-fields .field label.is-focused {
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 736, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
   [class*="view-"] .wrapper-modal-window-bulkpublish-section .list-fields .field input,
   [class*="view-"] .wrapper-modal-window-bulkpublish-section .list-fields .field textarea,
@@ -8823,7 +8819,7 @@ body.modal-open {
         .wrapper-assets .assets-library .assets-table tbody .video-row a:hover,
         .wrapper-assets .assets-library .assets-table .js-table-body tr a:hover,
         .wrapper-assets .assets-library .assets-table .js-table-body .video-row a:hover {
-          color: #0075b4; }
+          color: #bc1823; }
       /* line 110, /openedx/edx-platform/cms/static/sass/elements/_uploaded-assets.scss */
       .wrapper-assets .assets-library .assets-table tbody tr.is-locked,
       .wrapper-assets .assets-library .assets-table tbody .video-row.is-locked,
@@ -9125,9 +9121,9 @@ body.picker-open {
       background-color: rgba(255, 255, 255, 0.3);
       background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
       background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-      border: 1px solid #0075b4;
+      border: 1px solid #bc1823;
       border-radius: 3px;
-      background-color: #0075b4;
+      background-color: #bc1823;
       color: #fff;
       transition: all 0.125s linear 0s;
       display: block;
@@ -9223,7 +9219,7 @@ body.picker-open {
       .view-signup .content-primary form .list-input .field label.is-focused,
       .view-signin .content-primary form .list-input .field label.is-focused,
       .view-util .content-primary form .list-input .field label.is-focused {
-        color: #0075b4; }
+        color: #bc1823; }
     /* line 130, /openedx/edx-platform/cms/static/sass/views/_account.scss */
     .view-signup .content-primary form .list-input .field input,
     .view-signup .content-primary form .list-input .field textarea,
@@ -9479,7 +9475,7 @@ body.picker-open {
       margin-left: 10px; }
     /* line 105, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
     .view-uploads .assets-library .pagination .nav-link:hover {
-      background-color: #0075b4;
+      background-color: #bc1823;
       border-radius: 3px;
       color: #fff; }
     /* line 111, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
@@ -9551,7 +9547,7 @@ body.picker-open {
     .view-uploads .assets-library table th .column-sort-link,
     .view-uploads .assets-library table th .column-selected-link {
       cursor: pointer;
-      color: #0075b4; }
+      color: #bc1823; }
     /* line 220, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
     .view-uploads .assets-library table th .current-sort {
       border-bottom: 1px solid #c8c8c8; }
@@ -9593,7 +9589,7 @@ body.picker-open {
             color: #5e5e5e; }
             /* line 277, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
             .view-uploads .assets-library table th.nav-dd .wrapper-nav-sub .nav-sub .nav-item a:hover {
-              color: #0075b4; }
+              color: #bc1823; }
   /* line 287, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
   .view-uploads .assets-library table td {
     padding: 10px;
@@ -9619,7 +9615,7 @@ body.picker-open {
         color: #5e5e5e; }
         /* line 314, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
         .view-uploads .assets-library table tbody tr a:hover {
-          color: #0075b4; }
+          color: #bc1823; }
       /* line 319, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
       .view-uploads .assets-library table tbody tr.is-locked {
         background-image: url("../images/bg-micro-stripes.png");
@@ -9696,7 +9692,7 @@ body.picker-open {
   width: 30px; }
   /* line 436, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
   .view-uploads .actions-list .action-item.action-lock label:hover {
-    background-color: #0075b4; }
+    background-color: #bc1823; }
 
 /* line 441, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
 .view-uploads .actions-list .action-item.action-lock .lock-checkbox {
@@ -9709,7 +9705,7 @@ body.picker-open {
 
 /* line 450, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
 .view-uploads .actions-list .action-item.action-lock .lock-checkbox:hover ~ .action-button {
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #f8f8f8; }
 
 /* line 456, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
@@ -9742,9 +9738,9 @@ body.picker-open {
   background-color: rgba(255, 255, 255, 0.3);
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   border-radius: 3px;
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #fff; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .view-uploads .show-xml.disabled, .view-uploads .show-xml.is-disabled {
@@ -9797,9 +9793,9 @@ body.picker-open {
     background-color: rgba(255, 255, 255, 0.3);
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
     background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    border: 1px solid #0075b4;
+    border: 1px solid #bc1823;
     border-radius: 3px;
-    background-color: #0075b4;
+    background-color: #bc1823;
     color: #fff;
     padding: 10px 82px 12px; }
     /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
@@ -9861,7 +9857,7 @@ body.picker-open {
     .view-uploads .upload-modal .close-button:hover {
       background: none;
       box-shadow: none;
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 566, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
   .view-uploads .upload-modal .embeddable {
     display: none;
@@ -10063,9 +10059,9 @@ body.picker-open {
       background-color: rgba(255, 255, 255, 0.3);
       background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
       background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-      border: 1px solid #0075b4;
+      border: 1px solid #bc1823;
       border-radius: 3px;
-      background-color: #0075b4;
+      background-color: #bc1823;
       color: #fff;
       margin-top: 0; }
       /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
@@ -10293,9 +10289,9 @@ body.picker-open {
     background-color: rgba(255, 255, 255, 0.3);
     background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
     background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    border: 1px solid #0075b4;
+    border: 1px solid #bc1823;
     border-radius: 3px;
-    background-color: #0075b4;
+    background-color: #bc1823;
     color: #fff;
     margin-top: 0; }
     /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
@@ -10555,13 +10551,13 @@ body.picker-open {
     margin: 0 10px; }
     /* line 299, /openedx/edx-platform/cms/static/sass/views/_dashboard.scss */
     .view-dashboard #course-index-tabs li.active {
-      border-bottom: 4px solid #0075b4; }
+      border-bottom: 4px solid #bc1823; }
     /* line 305, /openedx/edx-platform/cms/static/sass/views/_dashboard.scss */
     .view-dashboard #course-index-tabs li.active a, .view-dashboard #course-index-tabs li:hover a {
       color: #474747; }
     /* line 310, /openedx/edx-platform/cms/static/sass/views/_dashboard.scss */
     .view-dashboard #course-index-tabs li a {
-      color: #0075b4;
+      color: #bc1823;
       cursor: pointer;
       display: inline-block; }
 
@@ -10839,9 +10835,9 @@ body.picker-open {
   background-color: rgba(255, 255, 255, 0.3);
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   border-radius: 3px;
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #fff; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .view-dashboard .create-course .new-course-save.disabled, .view-dashboard .create-course .new-course-save.is-disabled,
@@ -11160,11 +11156,12 @@ body.picker-open {
   .view-howitworks.not-signedin .content h6 {
     color: #2f2f2f; }
 
+
 /* line 48, /openedx/edx-platform/cms/static/sass/views/_index.scss */
 .view-howitworks.not-signedin .wrapper-content-header {
-  background-color: #3391c3;
-  background-image: -webkit-linear-gradient(#3391c3, #0075b4, #005e90);
-  background-image: linear-gradient(#3391c3, #0075b4, #005e90);
+  background-color: #bc1823;
+  background-image: -webkit-linear-gradient(#bc1823, #bc18236a, #bc18232a);
+  background-image: linear-gradient(#bc1823, #bc18236a, #bc18232a);
   padding-bottom: 80px;
   padding-top: 80px; }
 
@@ -11177,7 +11174,7 @@ body.picker-open {
   .view-howitworks.not-signedin .content-header h1 {
     float: none;
     margin: 0 0 10px 0;
-    border-bottom: 1px solid #3391c3;
+    border-bottom: 1px solid #bc1823;
     padding: 0;
     color: #fff; }
   /* line 71, /openedx/edx-platform/cms/static/sass/views/_index.scss */
@@ -11190,7 +11187,7 @@ body.picker-open {
   /* line 82, /openedx/edx-platform/cms/static/sass/views/_index.scss */
   .view-howitworks.not-signedin .content-header .tagline {
     margin: 0;
-    color: #99c8e1; }
+    color: #fff; }
 
 /* line 90, /openedx/edx-platform/cms/static/sass/views/_index.scss */
 .view-howitworks.not-signedin .arrow_box {
@@ -11276,12 +11273,12 @@ body.picker-open {
           border-top-right-radius: 3px;
           display: inline-block;
           padding: 10px;
-          background: #0075b4;
+          background: #bc1823;
           color: #fff;
           text-align: center; }
       /* line 178, /openedx/edx-platform/cms/static/sass/views/_index.scss */
       .view-howitworks.not-signedin .content-features .feature .img a:hover {
-        border-color: #0075b4; }
+        border-color: #bc1823; }
         /* line 181, /openedx/edx-platform/cms/static/sass/views/_index.scss */
         .view-howitworks.not-signedin .content-features .feature .img a:hover .action-zoom {
           opacity: 1;
@@ -11326,19 +11323,19 @@ body.picker-open {
         min-height: 160px;
         margin-right: 2.12766%;
         padding: 15px 20px;
-        color: #5e5e5e; }
+        color: #000; }
         /* line 242, /openedx/edx-platform/cms/static/sass/views/_index.scss */
         .view-howitworks.not-signedin .content-features .feature .copy .list-proofpoints .proofpoint .title {
           margin: 0 0 5px 0;
-          color: #2f2f2f; }
+          color: #bc18239a; }
         /* line 250, /openedx/edx-platform/cms/static/sass/views/_index.scss */
         .view-howitworks.not-signedin .content-features .feature .copy .list-proofpoints .proofpoint:hover {
           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-          background: #e6f1f8;
+          background: #bc18233a;
           top: -4px; }
           /* line 257, /openedx/edx-platform/cms/static/sass/views/_index.scss */
           .view-howitworks.not-signedin .content-features .feature .copy .list-proofpoints .proofpoint:hover .title {
-            color: #00466c; }
+            color: #bc18239a; }
         /* line 262, /openedx/edx-platform/cms/static/sass/views/_index.scss */
         .view-howitworks.not-signedin .content-features .feature .copy .list-proofpoints .proofpoint:last-child {
           margin-right: 0; }
@@ -11402,9 +11399,9 @@ body.picker-open {
         background-color: rgba(255, 255, 255, 0.3);
         background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
         background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-        border: 1px solid #0075b4;
+        border: 1px solid #bc1823;
         border-radius: 3px;
-        background-color: #0075b4;
+        background-color: #bc1823;
         color: #fff;
         padding: 15px 10px;
         text-align: center;
@@ -11509,9 +11506,9 @@ body.picker-open {
   background-color: rgba(255, 255, 255, 0.3);
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   border-radius: 3px;
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #fff; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .view-course-create .rerun-course .rerun-course-save.disabled, .view-course-create .rerun-course .rerun-course-save.is-disabled {
@@ -11606,9 +11603,9 @@ body.picker-open {
   background-color: rgba(255, 255, 255, 0.3);
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   border-radius: 3px;
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #fff; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .view-course-create .rerun-course .actions .action-primary.disabled, .view-course-create .rerun-course .actions .action-primary.is-disabled {
@@ -11883,7 +11880,7 @@ body.picker-open {
     /* line 45, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
     .view-outline .outline-complex .outline-section .section-header .is-editable .incontext-editor-input:focus, .view-outline .outline-complex .outline-subsection .subsection-header .is-editable .incontext-editor-input:focus, .view-outline .outline-complex .outline-unit .unit-header .is-editable .incontext-editor-input:focus {
       box-shadow: 0 0 2px 2px rgba(0, 117, 180, 0.5) inset;
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 54, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
   .view-outline .outline-complex .outline-section .section-header .is-editable:hover .incontext-editor-open-action, .view-outline .outline-complex .outline-subsection .subsection-header .is-editable:hover .incontext-editor-open-action, .view-outline .outline-complex .outline-unit .unit-header .is-editable:hover .incontext-editor-open-action, .view-outline .outline-complex .outline-section .section-header .is-editable:focus .incontext-editor-open-action, .view-outline .outline-complex .outline-subsection .subsection-header .is-editable:focus .incontext-editor-open-action, .view-outline .outline-complex .outline-unit .unit-header .is-editable:focus .incontext-editor-open-action {
     opacity: 1; }
@@ -11935,9 +11932,9 @@ body.picker-open {
   background-color: rgba(255, 255, 255, 0.3);
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   border-radius: 3px;
-  background-color: #0075b4;
+  background-color: #bc1823;
   color: #fff;
   margin: 0 5px;
   padding: 4px 20px 7px;
@@ -12125,7 +12122,7 @@ body.picker-open {
 .view-outline .outline-complex .outline-item.is-collapsible:nth-child(1) .ui-toggle-expansion:hover, .view-outline .outline-complex .outline-item.is-collapsible:nth-child(1) .ui-toggle-expansion:active,
 .view-outline .outline-complex .outline-item.is-collapsible:nth-child(1) .item-title:hover,
 .view-outline .outline-complex .outline-item.is-collapsible:nth-child(1) .item-title:active {
-  color: #0075b4; }
+  color: #bc1823; }
 
 /* line 299, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
 .view-outline .outline-complex .outline-item.is-collapsible.is-dragging {
@@ -12144,7 +12141,7 @@ body.picker-open {
 
 /* line 327, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
 .view-outline .outline-complex .outline-item.was-dropped {
-  border-color: #0075b4; }
+  border-color: #bc1823; }
 
 /* line 334, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
 .view-outline .outline-complex .outline-section {
@@ -12187,7 +12184,7 @@ body.picker-open {
     color: #c8c8c8; }
   /* line 425, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
   .view-outline .outline-complex .outline-section.was-dropped {
-    border-left-color: #0075b4; }
+    border-left-color: #bc1823; }
 
 /* line 432, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
 .view-outline .outline-complex .list-subsections {
@@ -12323,14 +12320,14 @@ body.picker-open {
     height: auto;
     width: 100%;
     position: absolute;
-    border-top: 1px solid #3391c3;
+    border-top: 1px solid #bc1823;
     opacity: 0; }
     /* line 660, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
     .view-outline .ui-splint-indicator .draggable-drop-indicator .fa-caret-right {
       position: absolute;
       top: -12px;
       left: -5px;
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 670, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
   .view-outline .ui-splint-indicator .draggable-drop-indicator-before {
     top: -10px; }
@@ -12341,7 +12338,7 @@ body.picker-open {
 /* line 680, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
 .view-outline .highlights-button {
   cursor: pointer;
-  color: #0075b4;
+  color: #bc1823;
   border: none;
   background: none;
   padding: 0;
@@ -12349,7 +12346,7 @@ body.picker-open {
 
 /* line 691, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
 .view-outline .number-highlights {
-  background: #0075b4;
+  background: #bc1823;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -12411,7 +12408,7 @@ body.picker-open {
     .view-outline .wrapper-modal-window-bulkpublish-subsection .list-fields .field label.is-focused,
     .view-outline .wrapper-modal-window-bulkpublish-unit .list-fields .field label.is-focused,
     .view-outline .course-outline-modal .list-fields .field label.is-focused {
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 755, /openedx/edx-platform/cms/static/sass/views/_outline.scss */
   .view-outline .wrapper-modal-window-bulkpublish-section .list-fields .field input,
   .view-outline .wrapper-modal-window-bulkpublish-section .list-fields .field textarea,
@@ -12658,7 +12655,7 @@ body.picker-open {
       color: #b20610; }
     /* line 161, /openedx/edx-platform/cms/static/sass/views/_settings.scss */
     .view-settings .group-settings .collapsible .collapsible-trigger {
-      color: #0075b4; }
+      color: #bc1823; }
       /* line 163, /openedx/edx-platform/cms/static/sass/views/_settings.scss */
       .view-settings .group-settings .collapsible .collapsible-trigger:hover {
         cursor: pointer; }
@@ -12754,7 +12751,7 @@ body.picker-open {
         margin: 0 0 5px 0; }
         /* line 266, /openedx/edx-platform/cms/static/sass/views/_settings.scss */
         .view-settings .group-settings .list-input .field label.is-focused {
-          color: #0075b4; }
+          color: #bc1823; }
       /* line 271, /openedx/edx-platform/cms/static/sass/views/_settings.scss */
       .view-settings .group-settings .list-input .field input,
       .view-settings .group-settings .list-input .field textarea,
@@ -12918,7 +12915,7 @@ body.picker-open {
           overflow: hidden;
           white-space: nowrap;
           text-overflow: ellipsis;
-          color: #0075b4; }
+          color: #bc1823; }
           /* line 454, /openedx/edx-platform/cms/static/sass/views/_settings.scss */
           .view-settings .group-settings.basic .note-promotion-courseURL .copy .link-courseURL:hover {
             color: #065683; }
@@ -13610,7 +13607,7 @@ body.picker-open {
       /* line 60, /openedx/edx-platform/cms/static/sass/views/_static-pages.scss */
       .view-static-pages .wrapper-actions-list .actions-list .action-item .action-button:hover,
       .view-static-pages .wrapper-actions-list .actions-list .action-item .toggle-actions-view:hover {
-        background-color: #0075b4;
+        background-color: #bc1823;
         color: #f8f8f8; }
     /* line 66, /openedx/edx-platform/cms/static/sass/views/_static-pages.scss */
     .view-static-pages .wrapper-actions-list .actions-list .action-item.action-visible {
@@ -13624,7 +13621,7 @@ body.picker-open {
       width: 30px; }
       /* line 77, /openedx/edx-platform/cms/static/sass/views/_static-pages.scss */
       .view-static-pages .wrapper-actions-list .actions-list .action-item.action-visible label:hover {
-        background-color: #0075b4; }
+        background-color: #bc1823; }
     /* line 82, /openedx/edx-platform/cms/static/sass/views/_static-pages.scss */
     .view-static-pages .wrapper-actions-list .actions-list .action-item.action-visible .toggle-checkbox {
       position: absolute;
@@ -13636,7 +13633,7 @@ body.picker-open {
     /* line 91, /openedx/edx-platform/cms/static/sass/views/_static-pages.scss */
     .view-static-pages .wrapper-actions-list .actions-list .action-item.action-visible .toggle-checkbox:hover ~ .action-button,
     .view-static-pages .wrapper-actions-list .actions-list .action-item.action-visible .toggle-checkbox:checked:hover ~ .action-button {
-      background-color: #0075b4;
+      background-color: #bc1823;
       color: #f8f8f8; }
     /* line 98, /openedx/edx-platform/cms/static/sass/views/_static-pages.scss */
     .view-static-pages .wrapper-actions-list .actions-list .action-item.action-visible .toggle-checkbox ~ .action-button .fa-eye {
@@ -13709,9 +13706,9 @@ body.picker-open {
       background-color: rgba(255, 255, 255, 0.3);
       background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
       background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-      border: 1px solid #0075b4;
+      border: 1px solid #bc1823;
       border-radius: 3px;
-      background-color: #0075b4;
+      background-color: #bc1823;
       color: #fff;
       margin-top: 0; }
       /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
@@ -13892,7 +13889,7 @@ body.picker-open {
         .view-static-pages .component .course-nav-item-actions .action-item .action-button:hover,
         .view-static-pages .course-nav-item .component-actions .action-item .action-button:hover,
         .view-static-pages .course-nav-item .course-nav-item-actions .action-item .action-button:hover {
-          background-color: #0075b4;
+          background-color: #bc1823;
           color: #f8f8f8; }
         /* line 278, /openedx/edx-platform/cms/static/sass/views/_static-pages.scss */
         .view-static-pages .component .component-actions .action-item .action-button .action-button-text,
@@ -14027,7 +14024,7 @@ body.picker-open {
     /* line 53, /openedx/edx-platform/cms/static/sass/views/_container.scss */
     .view-container .wrapper-mast .mast .page-header .is-editable .incontext-editor-input:focus {
       box-shadow: 0 0 2px 2px rgba(0, 117, 180, 0.5) inset;
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 60, /openedx/edx-platform/cms/static/sass/views/_container.scss */
   .view-container .wrapper-mast .mast .page-header .container-access {
     font-size: 14px;
@@ -14113,7 +14110,7 @@ body.picker-open {
   /* line 252, /openedx/edx-platform/cms/static/sass/views/_container.scss */
   .view-container .content-supplementary .bit-publishing .wrapper-pub-actions .action-copy {
     width: 100%;
-    border-color: #0075b4;
+    border-color: #bc1823;
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 24px;
@@ -14172,7 +14169,7 @@ body.picker-open {
         border: 1px dotted transparent; }
       /* line 330, /openedx/edx-platform/cms/static/sass/views/_container.scss */
       .view-container .content-supplementary .unit-tags .wrapper-tags .wrapper-tag-content .content-taxonomies .tagging-label-link:hover {
-        color: #0075b4; }
+        color: #bc1823; }
       /* line 334, /openedx/edx-platform/cms/static/sass/views/_container.scss */
       .view-container .content-supplementary .unit-tags .wrapper-tags .wrapper-tag-content .content-taxonomies .tagging-label-link:focus-visible {
         border-color: #767676; }
@@ -14215,7 +14212,7 @@ body.picker-open {
   /* line 400, /openedx/edx-platform/cms/static/sass/views/_container.scss */
   .view-container .content-supplementary .unit-location .wrapper-unit-tree-location .item-title a,
   .view-container .content-supplementary .library-location .wrapper-unit-tree-location .item-title a {
-    color: #0075b4; }
+    color: #bc1823; }
     /* line 403, /openedx/edx-platform/cms/static/sass/views/_container.scss */
     .view-container .content-supplementary .unit-location .wrapper-unit-tree-location .item-title a:hover,
     .view-container .content-supplementary .library-location .wrapper-unit-tree-location .item-title a:hover {
@@ -14481,9 +14478,9 @@ body.picker-open {
         background-color: rgba(255, 255, 255, 0.3);
         background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
         background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-        border: 1px solid #0075b4;
+        border: 1px solid #bc1823;
         border-radius: 3px;
-        background-color: #0075b4;
+        background-color: #bc1823;
         color: #fff;
         transition: all 0.15s;
         display: inline-block;
@@ -14594,10 +14591,10 @@ body.picker-open {
       vertical-align: text-bottom; }
     /* line 52, /openedx/edx-platform/cms/static/sass/views/_textbooks.scss */
     .view-textbooks .content-primary .textbook .view-textbook.is-selectable:hover {
-      color: #0075b4; }
+      color: #bc1823; }
       /* line 55, /openedx/edx-platform/cms/static/sass/views/_textbooks.scss */
       .view-textbooks .content-primary .textbook .view-textbook.is-selectable:hover .ui-toggle-expansion {
-        color: #0075b4; }
+        color: #bc1823; }
     /* line 61, /openedx/edx-platform/cms/static/sass/views/_textbooks.scss */
     .view-textbooks .content-primary .textbook .view-textbook .chapters {
       margin-left: 20px; }
@@ -14639,9 +14636,9 @@ body.picker-open {
           background-color: rgba(255, 255, 255, 0.3);
           background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
           background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-          border: 1px solid #0075b4;
+          border: 1px solid #bc1823;
           border-radius: 3px;
-          background-color: #0075b4;
+          background-color: #bc1823;
           color: #fff; }
           /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
           .view-textbooks .content-primary .textbook .view-textbook .actions .action .view.disabled, .view-textbooks .content-primary .textbook .view-textbook .actions .action .view.is-disabled {
@@ -14676,9 +14673,9 @@ body.picker-open {
           background-color: rgba(255, 255, 255, 0.3);
           background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
           background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-          border: 1px solid #0075b4;
+          border: 1px solid #bc1823;
           border-radius: 3px;
-          background-color: #0075b4;
+          background-color: #bc1823;
           color: #fff; }
           /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
           .view-textbooks .content-primary .textbook .view-textbook .actions .action .edit.disabled, .view-textbooks .content-primary .textbook .view-textbook .actions .action .edit.is-disabled {
@@ -14740,9 +14737,9 @@ body.picker-open {
         background-color: rgba(255, 255, 255, 0.3);
         background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
         background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-        border: 1px solid #0075b4;
+        border: 1px solid #bc1823;
         border-radius: 3px;
-        background-color: #0075b4;
+        background-color: #bc1823;
         color: #fff;
         transition: all 0.15s;
         display: inline-block;
@@ -14841,7 +14838,7 @@ body.picker-open {
         /* line 226, /openedx/edx-platform/cms/static/sass/views/_textbooks.scss */
         .view-textbooks .content-primary .textbook .edit-textbook .chapters-fields .field label.is-focused,
         .view-textbooks .content-primary .textbook .edit-textbook .textbook-fields .field label.is-focused {
-          color: #0075b4; }
+          color: #bc1823; }
       /* line 237, /openedx/edx-platform/cms/static/sass/views/_textbooks.scss */
       .view-textbooks .content-primary .textbook .edit-textbook .chapters-fields .field input,
       .view-textbooks .content-primary .textbook .edit-textbook .chapters-fields .field textarea,
@@ -14968,7 +14965,7 @@ body.picker-open {
         /* line 358, /openedx/edx-platform/cms/static/sass/views/_textbooks.scss */
         .view-textbooks .content-primary .textbook .edit-textbook .chapters-fields .field-group .action-close:hover,
         .view-textbooks .content-primary .textbook .edit-textbook .textbook-fields .field-group .action-close:hover {
-          color: #0075b4; }
+          color: #bc1823; }
     /* line 366, /openedx/edx-platform/cms/static/sass/views/_textbooks.scss */
     .view-textbooks .content-primary .textbook .edit-textbook .action-add-chapter {
       display: block;
@@ -15009,7 +15006,7 @@ body.picker-open {
 
 /* line 49, /openedx/edx-platform/cms/static/sass/views/_export-git.scss */
 .view-export-git .export-git-info-block .giturl_text {
-  color: #0075b4; }
+  color: #bc1823; }
 
 /* line 62, /openedx/edx-platform/cms/static/sass/views/_export-git.scss */
 .view-export-git .export-git-controls {
@@ -15080,7 +15077,7 @@ body.picker-open {
           color: #000; }
           /* line 80, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
           .view-group-configurations .content-primary .wrapper-collection .collection-header .title .toggle:hover, .view-group-configurations .content-primary .wrapper-collection .collection-header .title .toggle:focus {
-            color: #0075b4; }
+            color: #bc1823; }
           /* line 85, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
           .view-group-configurations .content-primary .wrapper-collection .collection-header .title .toggle .ui-toggle-expansion {
             transition: rotate 0.15s ease-in-out 0.25s;
@@ -15090,10 +15087,10 @@ body.picker-open {
             vertical-align: baseline; }
           /* line 107, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
           .view-group-configurations .content-primary .wrapper-collection .collection-header .title .toggle.is-selectable:hover {
-            color: #0075b4; }
+            color: #bc1823; }
             /* line 110, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
             .view-group-configurations .content-primary .wrapper-collection .collection-header .title .toggle.is-selectable:hover .ui-toggle-expansion {
-              color: #0075b4; }
+              color: #bc1823; }
     /* line 119, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
     .view-group-configurations .content-primary .wrapper-collection .collection-info {
       margin-left: 20px;
@@ -15248,7 +15245,7 @@ body.picker-open {
           margin: 0 0 5px 0; }
           /* line 363, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
           .view-group-configurations .content-primary .wrapper-collection .collection-edit .field label.is-focused {
-            color: #0075b4; }
+            color: #bc1823; }
         /* line 369, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
         .view-group-configurations .content-primary .wrapper-collection .collection-edit .field input,
         .view-group-configurations .content-primary .wrapper-collection .collection-edit .field textarea {
@@ -15445,7 +15442,7 @@ body.picker-open {
       vertical-align: middle; }
       /* line 661, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
       .view-group-configurations .content-primary .experiment-groups .group-configuration-edit .field-group .action-close:hover {
-        color: #0075b4; }
+        color: #bc1823; }
 
 /* line 670, /openedx/edx-platform/cms/static/sass/views/_group-configuration.scss */
 .view-group-configurations .content-supplementary {
@@ -15911,7 +15908,7 @@ body.picker-open {
       display: block; }
   /* line 599, /openedx/edx-platform/cms/static/sass/views/_video-upload.scss */
   .view-video-uploads .thumbnail-wrapper.upload .thumbnail-action {
-    color: #0075b4; }
+    color: #bc1823; }
   /* line 604, /openedx/edx-platform/cms/static/sass/views/_video-upload.scss */
   .view-video-uploads .thumbnail-wrapper.progress .thumbnail-action .action-icon {
     font-size: 20px;
@@ -15968,7 +15965,7 @@ body.picker-open {
     background-color: black; }
   /* line 670, /openedx/edx-platform/cms/static/sass/views/_video-upload.scss */
   .view-video-uploads .thumbnail-wrapper.focused {
-    box-shadow: 0 0 4px 1px #0075b4; }
+    box-shadow: 0 0 4px 1px #bc1823; }
   /* line 674, /openedx/edx-platform/cms/static/sass/views/_video-upload.scss */
   .view-video-uploads .thumbnail-wrapper.error {
     box-shadow: 0 0 4px 1px #b20610; }
@@ -16149,7 +16146,7 @@ body.picker-open {
         margin: 0 0 5px 0; }
         /* line 304, /openedx/edx-platform/cms/static/sass/views/_certificates.scss */
         .view-certificates .wrapper-collection .collection-edit .field label.is-focused {
-          color: #0075b4; }
+          color: #bc1823; }
       /* line 310, /openedx/edx-platform/cms/static/sass/views/_certificates.scss */
       .view-certificates .wrapper-collection .collection-edit .field input,
       .view-certificates .wrapper-collection .collection-edit .field textarea {
@@ -16327,7 +16324,7 @@ body.picker-open {
     vertical-align: middle; }
     /* line 557, /openedx/edx-platform/cms/static/sass/views/_certificates.scss */
     .view-certificates .certificates .certificate-edit .field-group .action-close:hover {
-      color: #0075b4; }
+      color: #bc1823; }
 
 /* line 569, /openedx/edx-platform/cms/static/sass/views/_certificates.scss */
 .view-certificates .certificates .signatory-details,
@@ -16399,7 +16396,7 @@ body.picker-open {
     margin: 0 0 5px 0; }
     /* line 664, /openedx/edx-platform/cms/static/sass/views/_certificates.scss */
     .view-certificates .certificates .signatory-edit .field label.is-focused {
-      color: #0075b4; }
+      color: #bc1823; }
   /* line 670, /openedx/edx-platform/cms/static/sass/views/_certificates.scss */
   .view-certificates .certificates .signatory-edit .field input,
   .view-certificates .certificates .signatory-edit .field textarea {
@@ -16804,7 +16801,7 @@ body.picker-open {
   display: block;
   height: 30px;
   margin: 10px 0;
-  border: 1px solid #0075b4;
+  border: 1px solid #bc1823;
   text-align: center; }
   /* line 208, /openedx/edx-platform/cms/static/sass/elements/_xmodules.scss */
   .xmodule_VideoBlock .wrapper-comp-settings.basic_metadata_edit .progress-bar.is-invisible {
@@ -16820,7 +16817,7 @@ body.picker-open {
     display: block;
     width: 0%;
     height: 30px;
-    background: #0075b4;
+    background: #bc1823;
     color: #fff;
     line-height: 28px; }
 
@@ -16888,10 +16885,10 @@ body.picker-open {
   padding: 10px;
   width: 49%;
   text-align: center;
-  color: #0075b4; }
+  color: #bc1823; }
   /* line 325, /openedx/edx-platform/cms/static/sass/elements/_xmodules.scss */
   .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .download-setting:hover {
-    background-color: #0075b4; }
+    background-color: #bc1823; }
 
 /* line 330, /openedx/edx-platform/cms/static/sass/elements/_xmodules.scss */
 .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .remove-setting {
@@ -16901,7 +16898,7 @@ body.picker-open {
   color: #99c8e1; }
   /* line 339, /openedx/edx-platform/cms/static/sass/elements/_xmodules.scss */
   .xmodule_VideoBlock .wrapper-comp-settings .list-input.settings-list .metadata-video-translations .remove-setting:hover {
-    color: #0075b4; }
+    color: #bc1823; }
 
 /* line 11, /openedx/edx-platform/cms/static/sass/_shame.scss */
 .view-dashboard .wrapper-authorshiprights .ui-toggle-control {
@@ -16921,7 +16918,7 @@ body.picker-open {
 /* line 37, /openedx/edx-platform/cms/static/sass/_shame.scss */
 .outline-section.valid-drop,
 .outline-subsection.valid-drop {
-  border-color: #0075b4; }
+  border-color: #bc1823; }
 
 /* line 54, /openedx/edx-platform/cms/static/sass/_shame.scss */
 #page-prompt .wrapper-prompt::before {
@@ -17020,16 +17017,16 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
 .btn-default {
   border-color: transparent;
   background: transparent;
-  color: #0075b4; }
+  color: #bc1823; }
   /* line 63, /openedx/edx-platform/cms/static/sass/edx-pattern-library-shims/_buttons.scss */
   .btn-default:hover, .btn-default.is-hovered, .btn-default:focus, .btn-default.is-focused {
-    border-color: #0075b4;
+    border-color: #bc1823;
     background-color: transparent;
-    color: #0075b4; }
+    color: #bc1823; }
   /* line 73, /openedx/edx-platform/cms/static/sass/edx-pattern-library-shims/_buttons.scss */
   .btn-default:active, .btn-default.is-pressed, .btn-default.is-active {
-    border-color: #0075b4;
-    color: #0075b4; }
+    border-color: #bc1823;
+    color: #bc1823; }
   /* line 81, /openedx/edx-platform/cms/static/sass/edx-pattern-library-shims/_buttons.scss */
   .btn-default:disabled, .btn-default.is-disabled {
     border-color: #d2d0d0;
@@ -17037,8 +17034,8 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
 
 /* line 91, /openedx/edx-platform/cms/static/sass/edx-pattern-library-shims/_buttons.scss */
 .btn-primary, .btn-brand {
-  border-color: #0075b4;
-  background: #0075b4;
+  border-color: #bc1823;
+  background: #bc1823;
   color: #fcfcfc; }
   /* line 99, /openedx/edx-platform/cms/static/sass/edx-pattern-library-shims/_buttons.scss */
   .btn-primary:hover, .btn-brand:hover, .btn-primary.is-hovered, .is-hovered.btn-brand, .btn-primary:focus, .btn-brand:focus, .btn-primary.is-focused, .is-focused.btn-brand {
@@ -17047,8 +17044,8 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
     color: #fcfcfc; }
   /* line 109, /openedx/edx-platform/cms/static/sass/edx-pattern-library-shims/_buttons.scss */
   .btn-primary:active, .btn-brand:active, .btn-primary.is-pressed, .is-pressed.btn-brand, .btn-primary.is-active, .is-active.btn-brand {
-    border-color: #0075b4;
-    background: #0075b4; }
+    border-color: #bc1823;
+    background: #bc1823; }
   /* line 117, /openedx/edx-platform/cms/static/sass/edx-pattern-library-shims/_buttons.scss */
   .btn-primary:disabled, .btn-brand:disabled, .btn-primary.is-disabled, .is-disabled.btn-brand {
     border-color: #d2d0d0;
