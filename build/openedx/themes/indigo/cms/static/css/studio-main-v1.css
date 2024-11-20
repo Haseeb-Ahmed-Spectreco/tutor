@@ -1587,8 +1587,7 @@ dl {
   display: inline-block;
   padding: 4px 20px 5px;
   background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
   border: 1px solid #474747;
   border-radius: 3px;
@@ -3564,8 +3563,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
     display: inline-block;
     padding: 4px 20px 5px;
     background-color: rgba(255, 255, 255, 0.3);
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
     border: 1px solid #474747;
     border-radius: 3px;
@@ -3601,8 +3599,6 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
       display: inline-block;
       padding: 4px 20px 5px;
       background-color: rgba(255, 255, 255, 0.3);
-      background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-      background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
       border: 1px solid #bc1823;
       border-radius: 3px;
       background-color: #bc1823;
@@ -5265,9 +5261,6 @@ form .note {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
     display: inline-block;
     padding: 4px 20px 5px;
-    background-color: rgba(255, 255, 255, 0.3);
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
     border: 1px solid #bc1823;
     border-radius: 3px;
     background-color: #bc1823;
@@ -5288,7 +5281,7 @@ form .note {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.15); }
     /* line 200, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
     .form-create .actions .action-primary:hover, .form-create .actions .action-primary:focus, .form-create .actions .action-primary:active {
-      background-color: #065683;
+      background-color: #bc18239a;
       color: #fff; }
     /* line 207, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
     .form-create .actions .action-primary.disabled, .form-create .actions .action-primary.is-disabled {
@@ -5689,7 +5682,7 @@ code {
     .view-util .wrapper-header .nav-pitch .action-signup:hover,
     .view-util .wrapper-header .nav-pitch .action-signup:focus,
     .view-util .wrapper-header .nav-pitch .action-signup:active {
-      background-color: #bc18239a;
+      background-color: #8A1217;
       color: #fff; }
     /* line 207, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
     .not-signedin .wrapper-header .nav-pitch .action-signup.disabled, .not-signedin .wrapper-header .nav-pitch .action-signup.is-disabled,
@@ -5742,7 +5735,7 @@ code {
     .not-signedin .wrapper-header .nav-pitch .action-signin:hover, .not-signedin .wrapper-header .nav-pitch .action-signin:focus,
     .view-util .wrapper-header .nav-pitch .action-signin:hover,
     .view-util .wrapper-header .nav-pitch .action-signin:focus {
-      background-color: #bc18239a;
+      background-color: #8A1217;
       color: #fff; }
 
 /* line 355, /openedx/edx-platform/cms/static/sass/elements/_header.scss */
@@ -6145,8 +6138,6 @@ body.course.view-checklists .nav-course-tools-checklists {
   display: inline-block;
   padding: 4px 20px 5px;
   background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   border: 1px solid #bc1823;
   border-radius: 3px;
   background-color: #bc1823;
@@ -6192,7 +6183,7 @@ body.course.view-checklists .nav-course-tools-checklists {
   .prompt.confirm .nav-actions .action-primary:hover,
   .prompt.confirm .nav-actions .action-primary:focus,
   .prompt.confirm .nav-actions .action-primary:active {
-    background-color: #065683;
+    background-color: #8A1217;
     color: #fff; }
   /* line 207, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .alert.confirm .nav-actions .action-primary.disabled, .alert.confirm .nav-actions .action-primary.is-disabled,
@@ -6225,14 +6216,13 @@ body.course.view-checklists .nav-course-tools-checklists {
   display: inline-block;
   padding: 4px 20px 5px;
   background-color: rgba(255, 255, 255, 0.4);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 60%);
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0) 60%);
+
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
   border: 1px solid #ca6510;
   border-radius: 3px;
-  background-color: #fd7e14;
+  background-color: #bc1823;
   color: #474747;
-  border-color: #984c0c;
+  border-color: #bc1823;
   color: #181818; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .alert.warning .nav-actions .action-primary.disabled, .alert.warning .nav-actions .action-primary.is-disabled,
@@ -6272,8 +6262,8 @@ body.course.view-checklists .nav-course-tools-checklists {
   .notification.warning .nav-actions .action-primary:focus,
   .prompt.warning .nav-actions .action-primary:hover,
   .prompt.warning .nav-actions .action-primary:focus {
-    background-color: #ff7e12;
-    color: #474747; }
+    background-color: #8A1217;
+    color: #fff; }
   /* line 282, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .alert.warning .nav-actions .action-primary.disabled, .alert.warning .nav-actions .action-primary.is-disabled,
   .notification.warning .nav-actions .action-primary.disabled,
@@ -6305,13 +6295,12 @@ body.course.view-checklists .nav-course-tools-checklists {
   display: inline-block;
   padding: 4px 20px 5px;
   background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+
   border: 1px solid #8e050d;
   border-radius: 3px;
-  background-color: #b20610;
+  background-color: #bc1823;
   color: #fff;
-  border-color: #6b040a; }
+  border-color: #bc1823; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .alert.error .nav-actions .action-primary.disabled, .alert.error .nav-actions .action-primary.is-disabled,
   .notification.error .nav-actions .action-primary.disabled,
@@ -6352,7 +6341,7 @@ body.course.view-checklists .nav-course-tools-checklists {
   .prompt.error .nav-actions .action-primary:hover,
   .prompt.error .nav-actions .action-primary:focus,
   .prompt.error .nav-actions .action-primary:active {
-    background-color: #b8000b;
+    background-color: #8A1217;
     color: #fff; }
   /* line 232, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .alert.error .nav-actions .action-primary.disabled, .alert.error .nav-actions .action-primary.is-disabled,
@@ -6385,13 +6374,12 @@ body.course.view-checklists .nav-course-tools-checklists {
   display: inline-block;
   padding: 4px 20px 5px;
   background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+
   border: 1px solid #bc1823;
   border-radius: 3px;
   background-color: #bc1823;
   color: #fff;
-  border-color: #00466c; }
+  border-color: #bc1823; }
   /* line 144, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .alert.announcement .nav-actions .action-primary.disabled, .alert.announcement .nav-actions .action-primary.is-disabled,
   .notification.announcement .nav-actions .action-primary.disabled,
@@ -6432,7 +6420,7 @@ body.course.view-checklists .nav-course-tools-checklists {
   .prompt.announcement .nav-actions .action-primary:hover,
   .prompt.announcement .nav-actions .action-primary:focus,
   .prompt.announcement .nav-actions .action-primary:active {
-    background-color: #065683;
+    background-color: #8A1217;
     color: #fff; }
   /* line 207, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
   .alert.announcement .nav-actions .action-primary.disabled, .alert.announcement .nav-actions .action-primary.is-disabled,
@@ -6465,8 +6453,6 @@ body.course.view-checklists .nav-course-tools-checklists {
   display: inline-block;
   padding: 4px 20px 5px;
   background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
   border: 1px solid #008100;
   border-radius: 3px;
@@ -10056,9 +10042,7 @@ body.picker-open {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
       display: inline-block;
       padding: 4px 20px 5px;
-      background-color: rgba(255, 255, 255, 0.3);
-      background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-      background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+      
       border: 1px solid #bc1823;
       border-radius: 3px;
       background-color: #bc1823;
@@ -10286,10 +10270,7 @@ body.picker-open {
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
     display: inline-block;
     padding: 4px 20px 5px;
-    background-color: rgba(255, 255, 255, 0.3);
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-    border: 1px solid #bc1823;
+    
     border-radius: 3px;
     background-color: #bc1823;
     color: #fff;
@@ -10832,9 +10813,7 @@ body.picker-open {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
   display: inline-block;
   padding: 4px 20px 5px;
-  background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  
   border: 1px solid #bc1823;
   border-radius: 3px;
   background-color: #bc1823;
@@ -11396,9 +11375,7 @@ body.picker-open {
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
         display: inline-block;
         padding: 4px 20px 5px;
-        background-color: rgba(255, 255, 255, 0.3);
-        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-        background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+      
         border: 1px solid #bc1823;
         border-radius: 3px;
         background-color: #bc1823;
@@ -11422,7 +11399,7 @@ body.picker-open {
           box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 1px rgba(0, 0, 0, 0.15); }
         /* line 200, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
         .view-howitworks.not-signedin .content-cta .list-actions .action.action-primary:hover, .view-howitworks.not-signedin .content-cta .list-actions .action.action-primary:focus, .view-howitworks.not-signedin .content-cta .list-actions .action.action-primary:active {
-          background-color: #065683;
+          background-color: #8A1217;
           color: #fff; }
         /* line 207, /openedx/edx-platform/cms/static/sass/_mixins-inherited.scss */
         .view-howitworks.not-signedin .content-cta .list-actions .action.action-primary.disabled, .view-howitworks.not-signedin .content-cta .list-actions .action.action-primary.is-disabled {
@@ -11503,9 +11480,7 @@ body.picker-open {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
   display: inline-block;
   padding: 4px 20px 5px;
-  background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+ 
   border: 1px solid #bc1823;
   border-radius: 3px;
   background-color: #bc1823;
@@ -11600,9 +11575,7 @@ body.picker-open {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
   display: inline-block;
   padding: 4px 20px 5px;
-  background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  
   border: 1px solid #bc1823;
   border-radius: 3px;
   background-color: #bc1823;
@@ -11638,9 +11611,7 @@ body.picker-open {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
   display: inline-block;
   padding: 4px 20px 5px;
-  background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+ 
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
   border: 1px solid #474747;
   border-radius: 3px;
@@ -11929,9 +11900,7 @@ body.picker-open {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
   display: inline-block;
   padding: 4px 20px 5px;
-  background-color: rgba(255, 255, 255, 0.3);
-  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  
   border: 1px solid #bc1823;
   border-radius: 3px;
   background-color: #bc1823;
@@ -13703,9 +13672,7 @@ body.picker-open {
       box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 0 0 transparent;
       display: inline-block;
       padding: 4px 20px 5px;
-      background-color: rgba(255, 255, 255, 0.3);
-      background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-      background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+
       border: 1px solid #bc1823;
       border-radius: 3px;
       background-color: #bc1823;
@@ -14476,8 +14443,7 @@ body.picker-open {
         display: inline-block;
         padding: 4px 20px 5px;
         background-color: rgba(255, 255, 255, 0.3);
-        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-        background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+
         border: 1px solid #bc1823;
         border-radius: 3px;
         background-color: #bc1823;
@@ -14516,8 +14482,7 @@ body.picker-open {
         display: inline-block;
         padding: 4px 20px 5px;
         background-color: rgba(255, 255, 255, 0.3);
-        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-        background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+       
         box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset;
         border: 1px solid #474747;
         border-radius: 3px;
@@ -14634,8 +14599,7 @@ body.picker-open {
           display: inline-block;
           padding: 4px 20px 5px;
           background-color: rgba(255, 255, 255, 0.3);
-          background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-          background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+          
           border: 1px solid #bc1823;
           border-radius: 3px;
           background-color: #bc1823;
@@ -14735,8 +14699,7 @@ body.picker-open {
         display: inline-block;
         padding: 4px 20px 5px;
         background-color: rgba(255, 255, 255, 0.3);
-        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
-        background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+
         border: 1px solid #bc1823;
         border-radius: 3px;
         background-color: #bc1823;
