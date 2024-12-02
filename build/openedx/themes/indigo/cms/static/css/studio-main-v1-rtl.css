@@ -3803,7 +3803,7 @@ div.wrapper-comp-editor.is-inactive ~ div.launch-latex-compiler {
       padding-right: 10px; }
     /* line 233, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
     .add-xblock-component .new-component-templates .icon {
-      color: #0ea6ec; }
+      color: #bc1823; }
   /* line 240, /openedx/edx-platform/cms/static/sass/elements/_modules.scss */
   .add-xblock-component .new-component-template {
     margin-bottom: 0; }
@@ -6995,7 +6995,7 @@ body.course.view-checklists .nav-course-tools-checklists {
     color: #fff; }
     /* line 917, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
     .wrapper-message .message.validation a {
-      color: #d7747b; }
+      color: #bc1823; }
   /* line 922, /openedx/edx-platform/cms/static/sass/elements/_system-feedback.scss */
   .wrapper-message .message.has-warnings {
     border-bottom: 3px solid #fd7e14; }
@@ -7914,12 +7914,12 @@ body.modal-open {
     [class*="view-"] .modal-window .modal-chin a,
     [class*="view-"] .modal-window .xblock-actions a,
     [class*="view-"] .modal-window .modal-actions a {
-      color: #710e15; }
+      color: #bc1823; }
       /* line 300, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
       [class*="view-"] .modal-window .modal-chin a:hover,
       [class*="view-"] .modal-window .xblock-actions a:hover,
       [class*="view-"] .modal-window .modal-actions a:hover {
-        color: #260507; }
+        color: #4c0b0f; }
     /* line 305, /openedx/edx-platform/cms/static/sass/elements/_modal-window.scss */
     [class*="view-"] .modal-window .modal-chin .clipboard-button,
     [class*="view-"] .modal-window .xblock-actions .clipboard-button,
@@ -8753,7 +8753,7 @@ body.modal-open {
         .wrapper-assets .assets-library .assets-table tbody .video-row a:hover,
         .wrapper-assets .assets-library .assets-table .js-table-body tr a:hover,
         .wrapper-assets .assets-library .assets-table .js-table-body .video-row a:hover {
-          color: #bc1823; }
+          color: #4c0b0f; }
       /* line 110, /openedx/edx-platform/cms/static/sass/elements/_uploaded-assets.scss */
       .wrapper-assets .assets-library .assets-table tbody tr.is-locked,
       .wrapper-assets .assets-library .assets-table tbody .video-row.is-locked,
@@ -9520,10 +9520,10 @@ body.picker-open {
             display: none; }
           /* line 274, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
           .view-uploads .assets-library table th.nav-dd .wrapper-nav-sub .nav-sub .nav-item a {
-            color: #666666; }
+            color: #bc1823; }
             /* line 277, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
             .view-uploads .assets-library table th.nav-dd .wrapper-nav-sub .nav-sub .nav-item a:hover {
-              color: #cc0815; }
+              color: #4c0b0f; }
   /* line 287, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
   .view-uploads .assets-library table td {
     padding: 10px;
@@ -9549,7 +9549,7 @@ body.picker-open {
         color: #666666; }
         /* line 314, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
         .view-uploads .assets-library table tbody tr a:hover {
-          color: #bc1823; }
+          color: #4c0b0f; }
       /* line 319, /openedx/edx-platform/cms/static/sass/views/_assets.scss */
       .view-uploads .assets-library table tbody tr.is-locked {
         background-image: url("../images/bg-micro-stripes.png");

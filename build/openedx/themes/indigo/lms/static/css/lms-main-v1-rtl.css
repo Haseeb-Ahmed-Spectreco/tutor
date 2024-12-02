@@ -3113,7 +3113,7 @@ a.text-darkest:hover, a.text-darkest:focus {
   --incorrect: #b20610;
   --lightGrey: #edf1f5;
   --lighter-base-font-color: #646464;
-  --link-color: #1b6d99;
+  --link-color: #bc1823;
   --medium-font-size: 0.9em;
   --partially-correct: #008100;
   --primary: #bc1823;
@@ -7045,7 +7045,7 @@ a.text-darkest:hover, a.text-darkest:focus {
   --incorrect: #b20610;
   --lightGrey: #edf1f5;
   --lighter-base-font-color: #646464;
-  --link-color: #1b6d99;
+  --link-color: #bc1823;
   --medium-font-size: 0.9em;
   --partially-correct: #008100;
   --primary: #bc1823;
@@ -25431,7 +25431,7 @@ body.open-modal {
         line-height: 1.5em; }
       /* line 727, /openedx/edx-platform/lms/static/sass/features/_learner-profile.scss */
       .view-profile .badge-set-display .badge-display .badge-details .find-button-container {
-        border: 1px solid #bc1823;
+        border: 1px solid #3391c3;
         padding: 10px 20px 10px 20px;
         display: inline-block;
         border-radius: 5px;
