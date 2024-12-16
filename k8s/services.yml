@@ -127,6 +127,18 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
+  name: discovery
+spec:
+  type: NodePort
+  ports:
+    - port: 8000
+      protocol: TCP
+  selector:
+    app.kubernetes.io/name: discovery
+---
+apiVersion: v1
+kind: Service
+metadata:
   name: mfe
 spec:
   type: NodePort

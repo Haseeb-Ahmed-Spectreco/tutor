@@ -9,15 +9,15 @@ from openedx.core.djangolib.markup import HTML, Text
 %>
 
 <main id="main" aria-label="Content" tabindex="-1">
-    <section class="home style-logout">
+    <section class="home style-logout" style="min-height: 86vh;">
       <header>
         <div class="outer-wrapper">
           <div class="title">
-            <div class="heading-group">
+            <div class="heading-group" style="display: flex; flex-direction: column; width: 100%; justify-content: center; align-items: center;">
               % if homepage_overlay_html:
                 ${homepage_overlay_html | n, decode.utf8}
               % else:
-                <%include file="index_overlay.html" />
+                  <%include file="index_overlay.html" />
               % endif
             </div>
             % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):

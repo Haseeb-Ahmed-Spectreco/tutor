@@ -137,6 +137,17 @@ services:
       - smtp
       
 
+  discovery:
+    image: docker.io/overhangio/openedx-discovery:18.0.0
+    environment:
+      DJANGO_SETTINGS_MODULE: course_discovery.settings.tutor.production
+    restart: unless-stopped
+    volumes:
+      - ../plugins/discovery/apps/settings/tutor:/openedx/discovery/course_discovery/settings/tutor:ro
+    depends_on: 
+      - lms
+      - mysql
+      - elasticsearch
   # MFE
   mfe:
       image: docker.io/overhangio/openedx-mfe:18.0.2-indigo

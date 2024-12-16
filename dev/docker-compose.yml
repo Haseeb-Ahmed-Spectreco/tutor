@@ -40,14 +40,24 @@ services:
 
   
 
+  discovery:
+    environment:
+      DJANGO_SETTINGS_MODULE: course_discovery.settings.tutor.development
+    command: ./manage.py runserver 0.0.0.0:8381
+    stdin_open: true
+    tty: true
+    ports:
+      - "8381:8381"
+    networks:
+      default:
+        aliases:
+          - "discovery.local.edly.io"
   mfe:
       ports:
           - 1984:8002 # communications
           - 2002:8002 # discussions
           - 1994:8002 # gradebook
-          - 2000:8002 # learning
           - 1993:8002 # ora-grading
-          - 1995:8002 # profile
   authn: # Work on this MFE for development
       image: "docker.io/overhangio/openedx-authn-dev:18.0.2"
       ports:
@@ -104,3 +114,31 @@ services:
           - lms
       environment:
           - "PORT=1996"
+  learning: # Work on this MFE for development
+      image: "docker.io/overhangio/openedx-learning-dev:18.0.2"
+      ports:
+          - "2000:2000"
+      stdin_open: true
+      tty: true
+      volumes:
+          - ../plugins/mfe/apps/mfe/webpack.dev-tutor.config.js:/openedx/app/webpack.dev-tutor.config.js:ro
+          - /home/haseeb/openedx/frontend-app-learning:/openedx/app
+      restart: unless-stopped
+      depends_on:
+          - lms
+      environment:
+          - "PORT=2000"
+  profile: # Work on this MFE for development
+      image: "docker.io/overhangio/openedx-profile-dev:18.0.2"
+      ports:
+          - "1995:1995"
+      stdin_open: true
+      tty: true
+      volumes:
+          - ../plugins/mfe/apps/mfe/webpack.dev-tutor.config.js:/openedx/app/webpack.dev-tutor.config.js:ro
+          - /home/haseeb/openedx/frontend-app-profile:/openedx/app
+      restart: unless-stopped
+      depends_on:
+          - lms
+      environment:
+          - "PORT=1995"

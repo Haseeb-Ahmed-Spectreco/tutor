@@ -93,7 +93,7 @@ CACHES = {
 SITE_ID = 2
 
 # Contact addresses
-CONTACT_MAILING_ADDRESS = "SpectrecoEDX - http://local.edly.io"
+CONTACT_MAILING_ADDRESS = "The Transition Academy - http://local.edly.io"
 DEFAULT_FROM_EMAIL = ENV_TOKENS.get("DEFAULT_FROM_EMAIL", ENV_TOKENS["CONTACT_EMAIL"])
 DEFAULT_FEEDBACK_EMAIL = ENV_TOKENS.get("DEFAULT_FEEDBACK_EMAIL", ENV_TOKENS["CONTACT_EMAIL"])
 SERVER_EMAIL = ENV_TOKENS.get("SERVER_EMAIL", ENV_TOKENS["CONTACT_EMAIL"])
@@ -251,6 +251,13 @@ CODE_JAIL = {
 }
 
 
+FEATURES['ENABLE_COURSE_DISCOVERY'] = True
+FEATURES['ENABLE_COURSEWARE_SEARCH'] = True
+FEATURES['ENABLE_DASHBOARD_SEARCH'] = True
+
+FEATURES['ENABLE_COURSEWARE_INDEX'] = True
+FEATURES['ENABLE_LIBRARY_INDEX'] = True
+
 ######## End of settings common to LMS and CMS
 
 ######## Common LMS settings
@@ -295,6 +302,7 @@ for folder in [DATA_DIR, LOG_DIR, MEDIA_ROOT, STATIC_ROOT, ORA2_FILEUPLOAD_ROOT]
     if not os.path.exists(folder):
         os.makedirs(folder, exist_ok=True)
 
+FEATURES["ENABLE_COURSE_DISCOVERY"] = True
 # MFE: enable API and set a low cache timeout for the settings. otherwise, weird
 # configuration bugs occur. Also, the view is not costly at all, and it's also cached on
 # the frontend. (5 minutes, hardcoded)
@@ -352,7 +360,7 @@ MFE_CONFIG = {
     "BASE_URL": "apps.local.edly.io",
     "CSRF_TOKEN_API_PATH": "/csrf/api/v1/token",
     "CREDENTIALS_BASE_URL": "",
-    "DISCOVERY_API_BASE_URL": "",
+    "DISCOVERY_API_BASE_URL": "http://discovery.local.edly.io:8381",
     "FAVICON_URL": "http://local.edly.io/favicon.ico",
     "INFO_EMAIL": "hbmz4812@gmail.com",
     "LANGUAGE_PREFERENCE_COOKIE_NAME": "openedx-language-preference",
@@ -365,7 +373,7 @@ MFE_CONFIG = {
     "MARKETING_SITE_BASE_URL": "http://local.edly.io:8000",
     "PASSWORD_RESET_SUPPORT_LINK": "mailto:hbmz4812@gmail.com",
     "REFRESH_ACCESS_TOKEN_ENDPOINT": "http://local.edly.io:8000/login_refresh",
-    "SITE_NAME": "SpectrecoEDX",
+    "SITE_NAME": "The Transition Academy",
     "STUDIO_BASE_URL": "http://studio.local.edly.io:8001",
     "USER_INFO_COOKIE_NAME": "user-info",
     "ACCESS_TOKEN_COOKIE_NAME": "edx-jwt-cookie-header-payload",

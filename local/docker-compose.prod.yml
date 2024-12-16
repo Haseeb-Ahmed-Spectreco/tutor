@@ -18,7 +18,7 @@ services:
         # with *.local.edly.io hostnames.
         aliases:
           - "local.edly.io"
-          
+          - discovery.local.edly.io
     
 
   ############# LMS and CMS workers

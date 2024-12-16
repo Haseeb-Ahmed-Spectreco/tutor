@@ -70,6 +70,9 @@ configMapGenerator:
   options:
     labels:
         app.kubernetes.io/name: redis
+- name: discovery-settings
+  files:
+    - plugins/discovery/apps/settings/tutor/production.py
 - name: mfe-caddy-config
   files:
     - plugins/mfe/apps/mfe/Caddyfile

@@ -8535,10 +8535,10 @@ a.text-darkest:hover, a.text-darkest:focus {
   --baseline: 20px;
   --black: #000;
   --black-t2: rgba(0, 0, 0, 0.5);
-  --blue: #0075b4;
-  --blue-d1: #005e90;
-  --blue-d2: #00466c;
-  --blue-d4: #001724;
+  --blue: #bc1823;
+  --blue-d1: #bc1823;
+  --blue-d2: #bc1823;
+  --blue-d4: #bc1823;
   --body-color: #313131;
   --border-color: #e7e7e7;
   --bp-screen-lg: 1024px;
@@ -13691,14 +13691,10 @@ body.indigo-dark-theme .bottom-bar {
 
 /* line 2, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
 .wrapper-footer {
-  padding: 25px 0;
+  padding: 15px 0;
   border-top: 1px solid #E5E7EB; }
-  @media (min-width: 768px) {
-    /* line 2, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
-    .wrapper-footer {
-      padding: 45px 0; } }
 
-/* line 9, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+/* line 8, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
 footer.tutor-container {
   margin: 0 auto;
   padding: 0 15px;
@@ -13706,35 +13702,25 @@ footer.tutor-container {
   text-align: center;
   box-sizing: border-box; }
   @media (min-width: 992px) {
-    /* line 9, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+    /* line 8, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
     footer.tutor-container {
       text-align: right; } }
   /* line 18, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
-  footer.tutor-container .footer-top {
-    margin: 0 0 15px; }
-    /* line 20, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
-    footer.tutor-container .footer-top:after {
-      clear: both;
-      display: block;
-      content: ""; }
-    /* line 25, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+  footer.tutor-container .footer-top:after {
+    clear: both;
+    display: block;
+    content: ""; }
+  @media (min-width: 992px) {
+    /* line 23, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
     footer.tutor-container .footer-top .powered-area {
-      margin: 0 0 10px; }
-      @media (min-width: 768px) {
-        /* line 25, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
-        footer.tutor-container .footer-top .powered-area {
-          margin: 0 0 15px; } }
-      @media (min-width: 992px) {
-        /* line 25, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
-        footer.tutor-container .footer-top .powered-area {
-          float: right; } }
-  /* line 35, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+      float: right; } }
+  /* line 31, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
   footer.tutor-container .logo-list {
     list-style: none;
     margin: 0;
     padding: 0;
     letter-spacing: -.3em; }
-    /* line 40, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+    /* line 36, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
     footer.tutor-container .logo-list li {
       display: inline-block;
       vertical-align: middle;
@@ -13744,13 +13730,13 @@ footer.tutor-container {
       font-size: 12px;
       line-height: 18px;
       color: #515661; }
-      /* line 49, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+      /* line 45, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
       footer.tutor-container .logo-list li:first-child {
         padding-right: 0; }
-      /* line 52, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+      /* line 48, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
       footer.tutor-container .logo-list li:last-child {
         padding-right: 20px; }
-        /* line 54, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+        /* line 50, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
         footer.tutor-container .logo-list li:last-child:after {
           position: absolute;
           right: 5px;
@@ -13760,14 +13746,14 @@ footer.tutor-container {
           height: 29px;
           margin: -14px 0 0;
           background: #515661; }
-  /* line 67, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+  /* line 63, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
   footer.tutor-container .nav-colophon {
     display: block;
     overflow: hidden; }
-    /* line 70, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+    /* line 66, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
     footer.tutor-container .nav-colophon ol {
-      text-align: center; }
-      /* line 72, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+      text-align: left; }
+      /* line 68, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
       footer.tutor-container .nav-colophon ol li {
         display: inline-block;
         vertical-align: top;
@@ -13775,46 +13761,46 @@ footer.tutor-container {
         font-size: 14px;
         line-height: 20px; }
         @media (min-width: 768px) {
-          /* line 72, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+          /* line 68, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
           footer.tutor-container .nav-colophon ol li {
             padding: 0 12px;
             font-size: 16px;
             line-height: 24px; } }
-        /* line 83, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+        /* line 79, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
         footer.tutor-container .nav-colophon ol li a {
           color: #374151;
           text-decoration: none; }
-          /* line 86, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+          /* line 82, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
           footer.tutor-container .nav-colophon ol li a:hover {
             color: #212529;
             text-decoration: none; }
-  /* line 94, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+  /* line 90, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
   footer.tutor-container .copyright-site {
     display: block;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 12px;
     color: #374151; }
 
-/* line 103, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+/* line 100, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
 body.indigo-dark-theme .wrapper-footer {
   border-top: 1px solid #777792;
   background: #0D0D0E; }
 
-/* line 109, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+/* line 106, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
 body.indigo-dark-theme footer.tutor-container .logo-list li {
   color: #DDDFE2; }
-  /* line 112, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+  /* line 109, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
   body.indigo-dark-theme footer.tutor-container .logo-list li:last-child:after {
     background: #DDDFE2; }
 
-/* line 121, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+/* line 118, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
 body.indigo-dark-theme footer.tutor-container .nav-colophon ol li a {
   color: #DDDFE2; }
-  /* line 123, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+  /* line 120, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
   body.indigo-dark-theme footer.tutor-container .nav-colophon ol li a:hover {
     color: #F8F8F8; }
 
-/* line 130, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
+/* line 127, /openedx/themes/indigo/lms/static/sass/extra/_footer.scss */
 body.indigo-dark-theme footer.tutor-container .copyright-site {
   color: #DDDFE2; }
 
@@ -13833,12 +13819,7 @@ header.global-header {
   header.global-header .main-header {
     display: flex;
     align-items: center;
-    height: 50px; }
-    @media (min-width: 992px) {
-      /* line 12, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
-      header.global-header .main-header {
-        display: unset;
-        height: auto; } }
+    height: 70px; }
   /* line 22, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   header.global-header .header-logo {
     margin: 0; }
@@ -13849,8 +13830,7 @@ header.global-header {
       @media (min-width: 992px) {
         /* line 24, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         header.global-header .header-logo a {
-          margin: 0;
-          margin: 20px 0 0; } }
+          margin: 0; } }
       /* line 31, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       header.global-header .header-logo a .logo {
         height: 21px;
@@ -13868,8 +13848,8 @@ header.global-header {
       header.global-header .nav-links .main .nav-tab a {
         font-size: 14px;
         font-weight: 500;
-        line-height: 22px;
-        padding: 20px 0;
+        line-height: 27px;
+        padding: 30px 0 20px 0;
         color: #374151;
         margin: 0 0 0 16px;
         border-bottom: 2px solid transparent; }
@@ -13881,8 +13861,9 @@ header.global-header {
     header.global-header .nav-links .secondary {
       margin: 0;
       position: relative;
-      justify-content: end; }
-      /* line 64, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      justify-content: end;
+      padding: 10px 0; }
+      /* line 65, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       header.global-header .nav-links .secondary .toggle-user-dropdown {
         padding: 9px 15px;
         background: #F2F7F8;
@@ -13892,7 +13873,7 @@ header.global-header {
         line-height: 20px;
         border-radius: 6px;
         margin: 12px 0; }
-        /* line 73, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+        /* line 74, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         header.global-header .nav-links .secondary .toggle-user-dropdown:after {
           margin: 4px 4px 0 0;
           border: 2px solid #bc1823;
@@ -13905,10 +13886,10 @@ header.global-header {
           width: 5px;
           display: inline-block;
           vertical-align: top; }
-        /* line 86, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+        /* line 87, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         header.global-header .nav-links .secondary .toggle-user-dropdown .username {
           font: -webkit-control; }
-      /* line 90, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 91, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       header.global-header .nav-links .secondary .dropdown-user-menu {
         position: absolute;
         left: 0;
@@ -13918,41 +13899,41 @@ header.global-header {
         box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
         border: none;
         overflow: hidden; }
-        /* line 99, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+        /* line 100, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         header.global-header .nav-links .secondary .dropdown-user-menu .dropdown-item {
           border: none !important; }
           @media (min-width: 992px) {
-            /* line 101, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+            /* line 102, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
             header.global-header .nav-links .secondary .dropdown-user-menu .dropdown-item.hide-desktop {
               display: none; } }
-          /* line 106, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+          /* line 107, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
           header.global-header .nav-links .secondary .dropdown-user-menu .dropdown-item a {
             box-sizing: border-box;
             padding: 10px;
             font-size: 14px;
             line-height: 20px;
             color: #374151; }
-            /* line 112, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+            /* line 113, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
             header.global-header .nav-links .secondary .dropdown-user-menu .dropdown-item a:hover {
               background: #F2F7F8;
               color: #212529; }
-  /* line 121, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 122, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   header.global-header .hamburger-menu {
     height: 12px;
     width: 20px;
     right: 15px;
     top: 18px; }
-    /* line 126, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 127, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     header.global-header .hamburger-menu .line {
       height: 2px; }
-      /* line 128, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 129, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       header.global-header .hamburger-menu .line:nth-child(2), header.global-header .hamburger-menu .line:nth-child(3) {
         top: 6px; }
-      /* line 131, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 132, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       header.global-header .hamburger-menu .line:nth-child(4) {
         top: 12px; }
 
-/* line 137, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+/* line 138, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
 .mobile-menu {
   position: absolute;
   right: 0;
@@ -13962,7 +13943,7 @@ header.global-header {
   border: none;
   border-bottom: 2px solid #bc1823;
   width: 100%; }
-  /* line 147, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 148, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   .mobile-menu .mobile-nav-link a {
     font-weight: normal;
     padding: 16px;
@@ -13970,51 +13951,51 @@ header.global-header {
     line-height: 20px;
     color: #374151;
     border: none; }
-    /* line 154, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 155, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     .mobile-menu .mobile-nav-link a:hover, .mobile-menu .mobile-nav-link a.active {
       background: #F2F7F8;
       color: #212529; }
 
-/* line 161, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+/* line 162, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
 .header-container {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 1600px;
   box-sizing: border-box; }
-  /* line 166, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 167, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   .header-container:after {
     display: block;
     clear: both;
     content: ""; }
 
-/* line 173, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+/* line 174, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
 .theme-toggle-button {
   position: relative;
   display: flex;
   align-items: center;
   margin-left: 0 !important; }
   @media (min-width: 992px) {
-    /* line 173, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 174, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     .theme-toggle-button {
       margin-left: 1.5rem !important; } }
-  /* line 183, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 184, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   .theme-toggle-button .light-theme-icon, .theme-toggle-button .dark-theme-icon {
     width: 18px;
     height: 1.5rem;
     color: #bc1823; }
-    /* line 187, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 188, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     .theme-toggle-button .light-theme-icon svg, .theme-toggle-button .dark-theme-icon svg {
       width: inherit;
       height: inherit; }
-  /* line 193, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 194, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   .theme-toggle-button #toggle-switch {
     display: flex;
     margin: 0 5px;
     /* The switch - the box around the slider */ }
-    /* line 197, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 198, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     .theme-toggle-button #toggle-switch label {
       margin: 0; }
-    /* line 202, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 203, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     .theme-toggle-button #toggle-switch .switch {
       position: relative;
       display: inline-block;
@@ -14022,12 +14003,12 @@ header.global-header {
       height: 24px;
       /* Hide default HTML checkbox */
       /* The slider */ }
-      /* line 209, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 210, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       .theme-toggle-button #toggle-switch .switch input {
         opacity: 0;
         width: 0;
         height: 0; }
-      /* line 216, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 217, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       .theme-toggle-button #toggle-switch .switch .slider {
         position: absolute;
         cursor: pointer;
@@ -14037,7 +14018,7 @@ header.global-header {
         bottom: 0;
         background-color: #f17a7f;
         transition: .4s; }
-        /* line 226, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+        /* line 227, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         .theme-toggle-button #toggle-switch .switch .slider::before {
           position: absolute;
           content: "";
@@ -14047,21 +14028,21 @@ header.global-header {
           bottom: 2px;
           background-color: white;
           transition: .4s; }
-        /* line 237, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+        /* line 238, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         .theme-toggle-button #toggle-switch .switch .slider.round {
           border-radius: 34px; }
-          /* line 239, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+          /* line 240, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
           .theme-toggle-button #toggle-switch .switch .slider.round::before {
             border-radius: 50%; }
 
-/* line 250, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+/* line 251, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
 body.indigo-dark-theme {
   background: #0D0D0E !important;
   color: #F8F8F8 !important; }
-  /* line 253, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 254, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   body.indigo-dark-theme .window-wrap {
     background: #0D0D0E; }
-  /* line 256, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 257, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   body.indigo-dark-theme .mobile-menu {
     position: absolute;
     right: 0;
@@ -14071,57 +14052,57 @@ body.indigo-dark-theme {
     border: none;
     border-bottom: 2px solid #bc1823;
     width: 100%; }
-    /* line 266, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 267, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     body.indigo-dark-theme .mobile-menu .mobile-nav-link a {
       background: #454545;
       color: #F8F8F8; }
-      /* line 269, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 270, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       body.indigo-dark-theme .mobile-menu .mobile-nav-link a:hover, body.indigo-dark-theme .mobile-menu .mobile-nav-link a.active {
         background: #323232;
         color: #F8F8F8; }
-  /* line 276, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 277, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   body.indigo-dark-theme header.global-header {
     background: #0D0D0E;
     box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.8), 0px 1px 3px 0px rgba(255, 255, 255, 0.1); }
-    /* line 282, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 283, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     body.indigo-dark-theme header.global-header .nav-links .main .nav-tab a {
       color: #F8F8F8; }
-      /* line 284, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 285, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       body.indigo-dark-theme header.global-header .nav-links .main .nav-tab a.active, body.indigo-dark-theme header.global-header .nav-links .main .nav-tab a:hover {
         color: #F8F8F8;
         border-bottom: 2px solid #F8F8F8; }
-    /* line 292, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 293, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     body.indigo-dark-theme header.global-header .nav-links .secondary .toggle-user-dropdown {
       background: #f17a7f;
       color: #0D0D0E; }
-      /* line 295, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 296, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       body.indigo-dark-theme header.global-header .nav-links .secondary .toggle-user-dropdown:after {
         border-color: #0D0D0E; }
-    /* line 299, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 300, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     body.indigo-dark-theme header.global-header .nav-links .secondary .dropdown-user-menu {
       background: #36383B;
       box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.8), 0px 4px 6px -2px rgba(255, 255, 255, 0.05), 0px 10px 15px -3px rgba(255, 255, 255, 0.1); }
-      /* line 303, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 304, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       body.indigo-dark-theme header.global-header .nav-links .secondary .dropdown-user-menu .dropdown-item a {
         color: #DDDFE2;
         background: none; }
-        /* line 306, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+        /* line 307, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
         body.indigo-dark-theme header.global-header .nav-links .secondary .dropdown-user-menu .dropdown-item a:hover {
           background: #0D0D0E;
           color: #F8F8F8; }
-    /* line 316, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 317, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     body.indigo-dark-theme header.global-header .hamburger-menu .line {
       background: #F8F8F8; }
-  /* line 324, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 325, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   body.indigo-dark-theme .theme-toggle-button .light-theme-icon, body.indigo-dark-theme .theme-toggle-button .dark-theme-icon {
     color: #DDDFE2; }
-  /* line 328, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+  /* line 329, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
   body.indigo-dark-theme .theme-toggle-button #toggle-switch .switch {
     /* The slider */ }
-    /* line 330, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+    /* line 331, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
     body.indigo-dark-theme .theme-toggle-button #toggle-switch .switch .slider {
       background-color: #f17a7f; }
-      /* line 332, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
+      /* line 333, /openedx/themes/indigo/lms/static/sass/extra/_header.scss */
       body.indigo-dark-theme .theme-toggle-button #toggle-switch .switch .slider::before {
         transform: translateX(-19px);
         box-shadow: 0 0 1px #f17a7f; }
@@ -14603,25 +14584,32 @@ body.indigo-dark-theme {
   padding-bottom: 0 !important; }
   /* line 37, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .find-courses .courses-container {
-    padding: 25px 0; }
+    padding: 25px 0;
+    min-height: 75vh; }
     @media (min-width: 768px) {
       /* line 37, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .find-courses .courses-container {
         padding: 30px 0; } }
-  /* line 43, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 44, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .find-courses .course-holder {
     width: 100% !important;
     float: none !important; }
 
-/* line 50, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 52, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+.home .courses-container .courses .courses-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start; }
+
+/* line 62, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 .courses-container .courses .courses-listing {
   letter-spacing: -.32em;
   margin: 0 -2.5%; }
   @media only screen and (min-width: 1200px) {
-    /* line 50, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 62, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .courses-container .courses .courses-listing {
       margin: 0 -1.5%; } }
-  /* line 56, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 68, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .courses-container .courses .courses-listing li {
     letter-spacing: normal;
     float: none !important;
@@ -14631,19 +14619,19 @@ body.indigo-dark-theme {
     margin: 0 2.5% 25px !important;
     max-height: unset !important; }
     @media (min-width: 576px) {
-      /* line 56, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+      /* line 68, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .courses-container .courses .courses-listing li {
         width: 45% !important; } }
     @media (min-width: 768px) {
-      /* line 56, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+      /* line 68, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .courses-container .courses .courses-listing li {
         width: 28.33% !important; } }
     @media only screen and (min-width: 1200px) {
-      /* line 56, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+      /* line 68, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .courses-container .courses .courses-listing li {
         width: calc(25% - 3%) !important;
         margin: 0 1.5% 25px !important; } }
-    /* line 74, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 86, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .courses-container .courses .courses-listing li .course {
       margin: 0;
       border: none;
@@ -14651,30 +14639,30 @@ body.indigo-dark-theme {
       border-radius: 8px;
       overflow: hidden;
       background: #fff; }
-      /* line 82, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+      /* line 94, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .courses-container .courses .courses-listing li .course .course-image .cover-image {
         height: 162px; }
-        /* line 84, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 96, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .courses-container .courses .courses-listing li .course .course-image .cover-image:before {
           display: none; }
-        /* line 87, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 99, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .courses-container .courses .courses-listing li .course .course-image .cover-image img {
           object-fit: cover;
           object-position: center;
           height: 100%; }
-      /* line 94, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+      /* line 106, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .courses-container .courses .courses-listing li .course .course-info {
         height: auto;
         font-family: "Inter", sans-serif;
         padding: 10px 20px 0; }
-        /* line 98, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 110, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .courses-container .courses .courses-listing li .course .course-info .course-code {
           display: none; }
-        /* line 101, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 113, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .courses-container .courses .courses-listing li .course .course-info h2 {
           font-family: "Inter", sans-serif;
           height: 72px; }
-        /* line 105, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 117, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .courses-container .courses .courses-listing li .course .course-info .course-title {
           color: #292C2E;
           font-size: 16px;
@@ -14688,7 +14676,7 @@ body.indigo-dark-theme {
           display: -webkit-box !important;
           -webkit-line-clamp: 2;
           -webkit-box-orient: vertical; }
-        /* line 119, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 131, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .courses-container .courses .courses-listing li .course .course-info .course-organization {
           color: #70787E;
           font-size: 14px;
@@ -14700,7 +14688,7 @@ body.indigo-dark-theme {
           overflow: hidden;
           white-space: nowrap;
           text-overflow: ellipsis; }
-        /* line 131, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 143, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .courses-container .courses .courses-listing li .course .course-info .learn-more {
           display: block;
           border-radius: 6px;
@@ -14712,10 +14700,10 @@ body.indigo-dark-theme {
           line-height: 20px;
           margin: 0 0 30px;
           color: #fff; }
-          /* line 142, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+          /* line 154, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .courses-container .courses .courses-listing li .course .course-info .learn-more:hover {
             opacity: .8; }
-        /* line 146, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 158, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .courses-container .courses .courses-listing li .course .course-info .course-date {
           border-top: 1px solid #ECF0F4;
           padding: 10px 20px;
@@ -14723,36 +14711,36 @@ body.indigo-dark-theme {
           color: #515661;
           font-size: 14px;
           line-height: 20px; }
-          /* line 153, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+          /* line 165, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .courses-container .courses .courses-listing li .course .course-info .course-date svg {
             display: inline-block;
             margin: -4px 0 0 10px;
             vertical-align: middle; }
 
-/* line 165, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 177, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 .saerch-bar-discover {
   margin: 0 0 25px; }
   @media (min-width: 768px) {
-    /* line 165, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 177, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .saerch-bar-discover {
       margin: 0 0 30px; } }
-  /* line 170, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 182, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .saerch-bar-discover:after {
     display: block;
     clear: both;
     content: ""; }
-  /* line 176, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 188, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .saerch-bar-discover .filters .filters-inner {
     border: none; }
-    /* line 178, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 190, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .saerch-bar-discover .filters .filters-inner .clear-filters {
       display: none; }
-    /* line 182, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 194, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .saerch-bar-discover .filters .filters-inner ul li {
       padding: 0;
       margin: 0 0 5px 7px;
       background: none; }
-      /* line 186, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+      /* line 198, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .saerch-bar-discover .filters .filters-inner ul li button {
         padding: 2px 10px;
         border-radius: 12px;
@@ -14760,27 +14748,27 @@ body.indigo-dark-theme {
         color: #fff;
         font-size: 14px;
         line-height: 20px; }
-  /* line 198, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 210, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .saerch-bar-discover .discover-search {
     overflow: hidden; }
-    /* line 200, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 212, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .saerch-bar-discover .discover-search .wrapper-search-context {
       overflow: hidden; }
-      /* line 202, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+      /* line 214, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input {
         float: none;
         display: block;
         margin: 0;
         width: auto; }
-        /* line 207, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 219, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input:after {
           display: block;
           clear: both;
           content: ""; }
-        /* line 212, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 224, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .button-holder {
           float: left; }
-          /* line 214, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+          /* line 226, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .button-holder button {
             position: static;
             margin: 0 16px 0 0;
@@ -14798,27 +14786,27 @@ body.indigo-dark-theme {
             border: none;
             box-shadow: none !important; }
             @media (min-width: 576px) {
-              /* line 214, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+              /* line 226, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
               .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .button-holder button {
                 min-width: 100px; } }
-            /* line 233, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+            /* line 245, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
             .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .button-holder button:hover {
               background: #bc1823;
               opacity: .8; }
-        /* line 239, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 251, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .input-holder {
           overflow: hidden;
           border-radius: 6px;
           background: #F2F7F8;
           padding: 0 33px 0 0;
           position: relative; }
-          /* line 245, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+          /* line 257, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .input-holder svg {
             position: absolute;
             right: 12px;
             font-size: 20px;
             top: 10px; }
-          /* line 251, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+          /* line 263, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .input-holder input {
             border: none;
             box-shadow: none;
@@ -14829,7 +14817,7 @@ body.indigo-dark-theme {
             font-size: 14px;
             line-height: 20px;
             padding: 9px 10px; }
-    /* line 265, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 277, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .saerch-bar-discover .discover-search .search-status-label {
       font-size: 14px;
       line-height: 20px;
@@ -14840,15 +14828,15 @@ body.indigo-dark-theme {
       float: none;
       color: #515661; }
 
-/* line 277, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 289, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 .filter-block {
   float: right;
   position: relative;
   z-index: 9; }
-  /* line 282, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 294, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .filter-block.show .dropdown-menu {
     display: block; }
-  /* line 286, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 298, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .filter-block > a {
     display: block;
     background-color: #F2F7F8;
@@ -14860,23 +14848,23 @@ body.indigo-dark-theme {
     padding: 8px 10px;
     border-radius: 6px;
     color: #4B5563; }
-    /* line 297, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 309, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .filter-block > a:hover {
       text-decoration: none;
       color: #4B5563; }
-    /* line 301, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 313, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .filter-block > a svg {
       display: inline-block;
       vertical-align: middle; }
-    /* line 305, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 317, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .filter-block > a span {
       padding: 0 3px;
       display: none; }
       @media (min-width: 576px) {
-        /* line 305, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 317, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .filter-block > a span {
           display: inline; } }
-  /* line 313, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 325, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .filter-block .dropdown-menu {
     display: none;
     width: 200px;
@@ -14887,17 +14875,17 @@ body.indigo-dark-theme {
     background: #F2F7F8;
     padding: 10px 10px 0;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 4px 6px -2px rgba(0, 0, 0, 0.05), 0px 10px 15px -3px rgba(0, 0, 0, 0.1); }
-  /* line 324, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 336, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   .filter-block .search-facets {
     float: none;
     width: 100%;
     margin: 0;
     box-shadow: none;
     background: none; }
-    /* line 330, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 342, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .filter-block .search-facets h2 {
       display: none; }
-    /* line 334, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 346, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .filter-block .search-facets .search-facets-lists h3 {
       border: none;
       padding: 0;
@@ -14905,16 +14893,16 @@ body.indigo-dark-theme {
       color: #191B23;
       font-size: 14px;
       font-weight: 700; }
-    /* line 342, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 354, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     .filter-block .search-facets .search-facets-lists ul.facet-list {
       padding: 0 25px 0 0;
       max-height: 100px;
       overflow-y: auto; }
-      /* line 346, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+      /* line 358, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
       .filter-block .search-facets .search-facets-lists ul.facet-list li {
         height: auto;
         margin: 0 0 10px; }
-        /* line 349, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+        /* line 361, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
         .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option {
           position: relative;
           float: none;
@@ -14924,11 +14912,11 @@ body.indigo-dark-theme {
           font-size: 14px;
           line-height: 20px;
           color: #191B23; }
-          /* line 359, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+          /* line 371, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option.selected .count {
             background: #bc1823;
             border-color: #bc1823; }
-            /* line 362, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+            /* line 374, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
             .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option.selected .count:before {
               content: "\f00c";
               width: auto;
@@ -14938,7 +14926,7 @@ body.indigo-dark-theme {
               font-size: 10px;
               line-height: 14px;
               color: #fff; }
-          /* line 374, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+          /* line 386, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
           .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option .count {
             position: absolute;
             right: 0;
@@ -14949,105 +14937,105 @@ body.indigo-dark-theme {
             border-radius: 4px;
             border: 1px solid #C4C7CF;
             background: #fff; }
-            /* line 384, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+            /* line 396, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
             .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option .count .count-number {
               display: none; }
 
-/* line 396, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 408, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .course-heading-area {
   color: #DDDFE2; }
-  /* line 398, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 410, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .course-heading-area h2 {
     color: #F8F8F8; }
 
-/* line 407, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 419, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .saerch-bar-discover .filters .filters-inner ul li button {
   background: #f17a7f !important;
   color: #0D0D0E; }
 
-/* line 419, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 431, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .button-holder button {
   background: #f17a7f;
   color: #0D0D0E; }
-  /* line 422, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 434, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .button-holder button:hover {
     background: #f17a7f;
     color: #0D0D0E; }
 
-/* line 428, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 440, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .input-holder {
   background: #292A2C; }
-  /* line 431, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 443, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .input-holder svg path {
     color: #F8F8F8; }
-  /* line 435, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 447, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .saerch-bar-discover .discover-search .wrapper-search-context .wrapper-search-input .input-holder input {
     color: #F8F8F8; }
 
-/* line 441, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 453, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .saerch-bar-discover .discover-search .search-status-label {
   color: #DDDFE2; }
 
-/* line 447, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 459, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .saerch-bar-discover .filter-block > a {
   background-color: #292A2C;
   color: #F8F8F8; }
-  /* line 450, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 462, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .saerch-bar-discover .filter-block > a:hover {
     color: #F8F8F8; }
-  /* line 453, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 465, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .saerch-bar-discover .filter-block > a svg {
     fill: transparent;
     stroke: #F8F8F8; }
-    /* line 456, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 468, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     body.indigo-dark-theme .saerch-bar-discover .filter-block > a svg.arrow {
       fill: #F8F8F8;
       stroke: none; }
 
-/* line 462, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 474, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .saerch-bar-discover .filter-block .dropdown-menu {
   background: #292A2C; }
 
-/* line 467, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 479, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .saerch-bar-discover .filter-block .search-facets .search-facets-lists h3 {
   color: #F8F8F8; }
 
-/* line 472, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 484, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .saerch-bar-discover .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option {
   color: #F8F8F8; }
-  /* line 475, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 487, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .saerch-bar-discover .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option.selected .count {
     background: #f17a7f;
     border-color: #f17a7f; }
-    /* line 478, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 490, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     body.indigo-dark-theme .saerch-bar-discover .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option.selected .count:before {
       color: #0D0D0E; }
-  /* line 483, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 495, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .saerch-bar-discover .filter-block .search-facets .search-facets-lists ul.facet-list li button.facet-option .count {
     border: 1px solid #F8F8F8;
     background: #F8F8F8; }
 
-/* line 498, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+/* line 510, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
 body.indigo-dark-theme .courses-container .courses .courses-listing li .course {
   box-shadow: none;
   border: 1px solid #777792;
   background: #292A2C; }
-  /* line 503, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 515, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .courses-container .courses .courses-listing li .course .course-info .course-title {
     color: #F8F8F8; }
-  /* line 506, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 518, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .courses-container .courses .courses-listing li .course .course-info .course-organization {
     color: #DDDFE2; }
-  /* line 509, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 521, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .courses-container .courses .courses-listing li .course .course-info .learn-more {
     background: #f17a7f;
     color: #0D0D0E; }
-  /* line 513, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+  /* line 525, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
   body.indigo-dark-theme .courses-container .courses .courses-listing li .course .course-info .course-date {
     border-top: 1px solid #777792;
     color: #DDDFE2;
     background: #36383B; }
-    /* line 518, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
+    /* line 530, /openedx/themes/indigo/lms/static/sass/courseware/_discover.scss */
     body.indigo-dark-theme .courses-container .courses .courses-listing li .course .course-info .course-date svg path {
       fill: #DDDFE2; }
 
@@ -15744,28 +15732,29 @@ body.indigo-dark-theme .pagination .page-divider {
 
 /* line 2, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 section.home {
+  min-height: 86vh;
   max-width: 1600px;
   margin: 0 auto;
   padding: 0 15px; }
 
-/* line 7, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 8, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 .home > header .title {
   background: none !important; }
 
-/* line 10, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 11, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 .home > header .outer-wrapper {
   max-width: 100%; }
 
-/* line 14, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 15, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 .global-header .nav-links .secondary .btn-holder {
   letter-spacing: -.32em;
   margin: 0 -7px; }
-  /* line 17, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+  /* line 18, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
   .global-header .nav-links .secondary .btn-holder .nav-item {
     letter-spacing: normal;
     margin: 0 7px;
     padding: 12px 0; }
-    /* line 21, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+    /* line 22, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
     .global-header .nav-links .secondary .btn-holder .nav-item .btn {
       line-height: 20px;
       padding: 9px 17px;
@@ -15774,10 +15763,10 @@ section.home {
       font-weight: 500;
       display: block; }
 
-/* line 33, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 34, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 #main .home.style-logout header {
   background: none; }
-  /* line 36, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+  /* line 37, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
   #main .home.style-logout header .outer-wrapper .title {
     width: 100%;
     float: none;
@@ -15785,19 +15774,19 @@ section.home {
     padding: 30px 0 0;
     min-height: 20px; }
     @media (min-width: 576px) {
-      /* line 36, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+      /* line 37, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
       #main .home.style-logout header .outer-wrapper .title {
         padding: 50px 0 0; } }
-    /* line 45, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+    /* line 46, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
     #main .home.style-logout header .outer-wrapper .title .heading-group {
       margin: 0 0 25px;
       text-align: right;
       padding: 0; }
       @media (min-width: 576px) {
-        /* line 45, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+        /* line 46, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
         #main .home.style-logout header .outer-wrapper .title .heading-group {
           margin: 0 0 45px; } }
-      /* line 52, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+      /* line 53, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
       #main .home.style-logout header .outer-wrapper .title .heading-group h1 {
         color: #111827;
         font-size: 20px;
@@ -15806,30 +15795,30 @@ section.home {
         margin: 0 0 8px;
         text-align: right; }
         @media (min-width: 768px) {
-          /* line 52, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+          /* line 53, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
           #main .home.style-logout header .outer-wrapper .title .heading-group h1 {
             font-size: 24px;
             font-weight: 700;
             margin: 0 0 12px; } }
-      /* line 65, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+      /* line 66, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
       #main .home.style-logout header .outer-wrapper .title .heading-group p {
         font-size: 16px;
         line-height: 20px;
         color: #515661;
         font-style: normal;
         margin: 0; }
-    /* line 73, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+    /* line 74, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
     #main .home.style-logout header .outer-wrapper .title .course-search {
       padding: 0; }
-      /* line 76, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+      /* line 77, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
       #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper:after {
         clear: both;
         content: "";
         display: block; }
-      /* line 81, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+      /* line 82, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
       #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .button-holder {
         float: left; }
-        /* line 83, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+        /* line 84, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
         #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .button-holder button {
           position: static;
           margin: 0 16px 0 0;
@@ -15846,14 +15835,14 @@ section.home {
           font-family: "Inter", sans-serif;
           border: none; }
           @media (min-width: 576px) {
-            /* line 83, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+            /* line 84, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
             #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .button-holder button {
               min-width: 100px; } }
-          /* line 101, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+          /* line 102, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
           #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .button-holder button:hover {
             background: #bc1823;
             opacity: .8; }
-      /* line 107, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+      /* line 108, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
       #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .input-holder {
         overflow: hidden;
         border-radius: 6px;
@@ -15861,13 +15850,13 @@ section.home {
         padding: 0 33px 0 0;
         position: relative;
         display: block; }
-        /* line 114, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+        /* line 115, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
         #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .input-holder svg {
           position: absolute;
           right: 12px;
           font-size: 20px;
           top: 10px; }
-        /* line 120, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+        /* line 121, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
         #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .input-holder input {
           border: none;
           box-shadow: none;
@@ -15879,54 +15868,54 @@ section.home {
           line-height: 20px;
           padding: 9px 10px; }
 
-/* line 139, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 140, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 body.indigo-dark-theme h1 {
   color: #F8F8F8; }
 
-/* line 142, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 143, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 body.indigo-dark-theme p a:not(.btn), body.indigo-dark-theme a:not(.btn) {
   color: #f17a7f; }
-  /* line 144, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+  /* line 145, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
   body.indigo-dark-theme p a:not(.btn):hover, body.indigo-dark-theme p a:not(.btn):focus, body.indigo-dark-theme p a:not(.btn):active, body.indigo-dark-theme p a:not(.btn) a:visited:not(.btn):focus, body.indigo-dark-theme a:not(.btn):hover, body.indigo-dark-theme a:not(.btn):focus, body.indigo-dark-theme a:not(.btn):active, body.indigo-dark-theme a:not(.btn) a:visited:not(.btn):focus {
     color: #f17a7f; }
 
-/* line 152, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 153, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 body.indigo-dark-theme .global-header .nav-links .secondary .btn-holder .nav-item .btn.sign-in-btn {
   background: #f17a7f;
   color: #0D0D0E;
   border-color: #f17a7f; }
 
-/* line 157, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 158, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 body.indigo-dark-theme .global-header .nav-links .secondary .btn-holder .nav-item .btn.register-btn {
   color: #F8F8F8;
   border-color: #F8F8F8;
   background: none; }
 
-/* line 167, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+/* line 168, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
 body.indigo-dark-theme #main .home.style-logout header {
   background: none; }
-  /* line 172, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+  /* line 173, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
   body.indigo-dark-theme #main .home.style-logout header .outer-wrapper .title .heading-group h1 {
     color: #F8F8F8; }
-  /* line 175, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+  /* line 176, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
   body.indigo-dark-theme #main .home.style-logout header .outer-wrapper .title .heading-group p {
     color: #DDDFE2; }
-  /* line 182, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+  /* line 183, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
   body.indigo-dark-theme #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .button-holder button {
     color: #0D0D0E;
     background: #f17a7f;
     border: none; }
-    /* line 186, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+    /* line 187, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
     body.indigo-dark-theme #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .button-holder button:hover {
       color: #0D0D0E;
       background: #f17a7f; }
-  /* line 192, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+  /* line 193, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
   body.indigo-dark-theme #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .input-holder {
     background: #292A2C; }
-    /* line 195, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+    /* line 196, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
     body.indigo-dark-theme #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .input-holder svg path {
       fill: #DDDFE2; }
-    /* line 199, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
+    /* line 200, /openedx/themes/indigo/lms/static/sass/home/_home.scss */
     body.indigo-dark-theme #main .home.style-logout header .outer-wrapper .title .course-search .search-field-wrapper .input-holder input {
       color: #F8F8F8; }
 

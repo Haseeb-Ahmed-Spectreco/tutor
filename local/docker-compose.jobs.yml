@@ -41,4 +41,12 @@ services:
         - /home/haseeb/openedx/edx-platform:/openedx/edx-platform
       depends_on: ["mysql", "mongodb", "elasticsearch", "redis"]
 
-    
+    discovery-job:
+      image: docker.io/overhangio/openedx-discovery:18.0.0
+      environment:
+        DEFAULT_PARTNER_CODE: openedx
+      volumes:
+        - ../plugins/discovery/apps/settings/tutor:/openedx/discovery/course_discovery/settings/tutor:ro
+      depends_on: 
+        - lms
+        - mysql

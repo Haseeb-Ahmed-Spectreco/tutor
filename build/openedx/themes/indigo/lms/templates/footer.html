@@ -116,19 +116,9 @@
         ## through an API to partner sites (such as marketing sites or blogs),
         ## which are not technically powered by OpenEdX.
         % if not hide_openedx_link:
-        <ul class="logo-list">
-          <li>Powered by:</li>
-          <li>
-            <a href="https://docs.tutor.edly.io" rel="noopener" target="_blank">
-              <img src="${static.url('images/tutor-logo.png')}" alt="Runs on Tutor" width="57" />
-            </a>
-          </li>
-          <li>
-            <a href="${footer['openedx_link']['url']}" rel="noopener" target="_blank">
-              <img src="${static.url('images/openedx-logo.png')}" alt="${footer['openedx_link']['title']}" width="79" />
-            </a>
-          </li>
-        </ul>
+        <a href="${footer['openedx_link']['url']}" rel="noopener" target="_blank">
+          <img style="height: 30px; width: auto;" src="${static.url('images/spectreco-logo.png')}" alt="${footer['openedx_link']['title']}" />
+        </a>
       </div>
       
       <nav class="nav-colophon" aria-label="${_('About')}">
@@ -166,7 +156,6 @@
       </nav>
       
     </div>
-    <span class="copyright-site">Copyrights ©${datetime.now().year}. All Rights Reserved.</span>
     % endif
       <div class="colophon">
 

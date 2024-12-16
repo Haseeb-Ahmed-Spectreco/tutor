@@ -36,6 +36,7 @@
     padding-bottom: 0 !important;
     .courses-container {
         padding: 25px 0;
+        min-height: 75vh;
         @include media-breakpoint-up(md) {
             padding: 30px 0;
         }
@@ -43,6 +44,17 @@
     .course-holder {
         width: 100% !important;
         float: none !important;
+    }
+}
+.home{
+    .courses-container{
+        .courses{
+            .courses-listing{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: start;
+            }
+        }
     }
 }
 .courses-container {

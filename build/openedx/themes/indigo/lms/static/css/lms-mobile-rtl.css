@@ -3077,10 +3077,10 @@ a.text-darkest:hover, a.text-darkest:focus {
   --baseline: 20px;
   --black: #000;
   --black-t2: rgba(0, 0, 0, 0.5);
-  --blue: #0075b4;
-  --blue-d1: #005e90;
-  --blue-d2: #00466c;
-  --blue-d4: #001724;
+  --blue: #bc1823;
+  --blue-d1: #bc1823;
+  --blue-d2: #bc1823;
+  --blue-d4: #bc1823;
   --body-color: #313131;
   --border-color: #e7e7e7;
   --bp-screen-lg: 1024px;

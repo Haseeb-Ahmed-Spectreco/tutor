@@ -75,6 +75,14 @@ studio.local.edly.io{$default_site_port} {
     }
 }
 
+# Discovery
+discovery.local.edly.io{$default_site_port} {
+    request_body {
+        max_size 10MB
+    }
+
+    import proxy "discovery:8000"
+}
 apps.local.edly.io{$default_site_port} {
     redir / http://local.edly.io
     request_body {

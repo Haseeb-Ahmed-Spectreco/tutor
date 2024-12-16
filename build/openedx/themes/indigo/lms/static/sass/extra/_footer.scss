@@ -1,9 +1,8 @@
 // Include custom Footer
 .wrapper-footer {
-    padding: 25px 0;
+    padding: 15px 0;
     border-top: 1px solid #E5E7EB;
     @include media-breakpoint-up(md) {
-        padding: 45px 0;
     }
 }
 footer.tutor-container {
@@ -16,16 +15,13 @@ footer.tutor-container {
         text-align: left;
     }
     .footer-top {
-        margin: 0 0 15px;
         &:after {
             clear: both;
             display: block;
             content: "";
         }
         .powered-area {
-            margin: 0 0 10px;
             @include media-breakpoint-up(md) {
-                margin: 0 0 15px;
             }
             @include media-breakpoint-up(lg) {
                 float: left;
@@ -68,7 +64,7 @@ footer.tutor-container {
         display: block;
         overflow: hidden;
         ol {
-            text-align: center;
+            text-align: right;
             li {
                 display: inline-block;
                 vertical-align: top;
@@ -94,7 +90,8 @@ footer.tutor-container {
     .copyright-site {
         display: block;
         font-size: 12px;
-        line-height: 16px;
+        line-height: 12px;
+
         color: $light-dark;
     }
 }

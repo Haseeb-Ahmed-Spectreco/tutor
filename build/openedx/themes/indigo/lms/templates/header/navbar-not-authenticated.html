@@ -43,7 +43,11 @@ from django.utils.translation import gettext as _
   % endif
   </div>
   <div class="secondary d-flex align-items-center">
-    <%include file="./theme-toggle-button.html" />
+    <!-- <%include file="./theme-toggle-button.html" /> -->
+    <a href="https://spectreco.com" rel="noopener" target="_blank" style="margin-right: 10px;">
+      <img style="height: 20px; width: auto;" src="${static.url('images/spec-logo-small.png')}" alt="" />
+    </a>
+    
     <div class="btn-holder">
       % if allows_login:
         % if allow_public_account_creation and not disable_register_button:

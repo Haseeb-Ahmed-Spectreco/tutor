@@ -105,7 +105,7 @@ CACHES = {
 SITE_ID = 2
 
 # Contact addresses
-CONTACT_MAILING_ADDRESS = "SpectrecoEDX - http://local.edly.io"
+CONTACT_MAILING_ADDRESS = "The Transition Academy - http://local.edly.io"
 DEFAULT_FROM_EMAIL = ENV_TOKENS.get("DEFAULT_FROM_EMAIL", ENV_TOKENS["CONTACT_EMAIL"])
 DEFAULT_FEEDBACK_EMAIL = ENV_TOKENS.get("DEFAULT_FEEDBACK_EMAIL", ENV_TOKENS["CONTACT_EMAIL"])
 SERVER_EMAIL = ENV_TOKENS.get("SERVER_EMAIL", ENV_TOKENS["CONTACT_EMAIL"])
@@ -263,10 +263,17 @@ CODE_JAIL = {
 }
 
 
+FEATURES['ENABLE_COURSE_DISCOVERY'] = True
+FEATURES['ENABLE_COURSEWARE_SEARCH'] = True
+FEATURES['ENABLE_DASHBOARD_SEARCH'] = True
+
+FEATURES['ENABLE_COURSEWARE_INDEX'] = True
+FEATURES['ENABLE_LIBRARY_INDEX'] = True
+
 ######## End of settings common to LMS and CMS
 
 ######## Common CMS settings
-STUDIO_NAME = "SpectrecoEDX - Studio"
+STUDIO_NAME = "The Transition Academy - Studio"
 
 CACHES["staticfiles"] = {
     "KEY_PREFIX": "staticfiles_cms",
